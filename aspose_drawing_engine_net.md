@@ -8,7 +8,7 @@ keywords: [image drawing, draw an image]
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Drawing images is a very demanding operation with graphic libraries for developers, researchers, students and managers who create graphic applications and services on .NET platform. Aspose.Drawing is a modern cross-platform image library with enhanced capabilities. With the Aspose library for .NET it is possible effectively draw lines and shapes using different Pen and Brush objects, texts with different fonts and styles, and make various transformations, and raster images in all commonly used graphics file formats. The ready-to-use graphic library helps to increase productivity, dramatically reduce development and time-to-market period. The Microsoft System.Drawing.Common library recently changed its support for non-Windows platforms and Aspose.Drawing will be a proper replacement for drawing images.
+Drawing images with graphic libraries is a very demanding operation for developers, researchers, students and managers who create graphic applications and services on .NET platform. Aspose.Drawing is a modern cross-platform image library with enhanced capabilities. With the Aspose library for .NET it is possible effectively draw lines and shapes using different Pen and Brush objects, create texts with different fonts and styles, make various transformations and raster images in all commonly used graphics file formats. The ready-to-use graphic library helps to increase productivity, dramatically reduce development and time-to-market period. The Microsoft System.Drawing.Common library recently changed its support for non-Windows platforms and Aspose.Drawing will be a proper replacement for drawing images.
 
 </p>
 
@@ -18,7 +18,7 @@ Drawing images is a very demanding operation with graphic libraries for develope
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 Aspose.Drawing for .NET is a powerful cross-platform program library for 2D graphics drawing. The Aspose library can be used as an alternative to System.Drawing package.
 On May 22, 2023, the Microsoft Learn portal published an article about a breaking change: 
-<a href="https://learn.microsoft.com/en-us/dotnet/core/compatibility/core-libraries/6.0/system-drawing-common-windows-only">System.Drawing.Common only supported on Windows</a>. Now, if you try to compile a program with the System.Drawing.Common package on non-Windows environments, the exception will be thrown that your platform is not supported. Despite of you can switch off this warning, it is recommended to migrate to other libraries. Aspose.Drawing is a good choice for drawing application development for .NET Framework, .NET Core and for Xamarin applications for Windows, Linux, Android, Azure Functions or Blazor WebAssembly.
+<a href="https://learn.microsoft.com/en-us/dotnet/core/compatibility/core-libraries/6.0/system-drawing-common-windows-only">System.Drawing.Common only supported on Windows</a>. Now, if you try to compile a program with the System.Drawing.Common package on non-Windows environments, the exception will be thrown that your platform is not supported. Despite of you can still switch off this warning, it is recommended to migrate to other libraries. Aspose.Drawing is a good choice for drawing application development for .NET Framework, .NET Core and for Xamarin applications for Windows, Linux, Android, Azure Functions or Blazor WebAssembly.
 </p>
 
 
@@ -26,10 +26,7 @@ On May 22, 2023, the Microsoft Learn portal published an article about a breakin
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Aspose.Drawing package is available for download from the  <a href="https://www.nuget.org/packages/Aspose.Drawing">NuGet package manager repository</a>. The Aspose package 
-
-<a href="https://products.aspose.com/drawing/net/">.NET APIs for 2D Graphics Drawing</a>
-
+Aspose.Drawing package is available for download from the  <a href="https://www.nuget.org/packages/Aspose.Drawing">NuGet package manager repository</a>. The Aspose package supports any 32-bit or 64-bit operating system where .NET Framework or .NET Core is installed and fully compatible with System.Drawing API. Please find the API description on <a href="https://products.aspose.com/drawing/net/">Aspose .NET APIs for 2D Graphics Drawing</a> product page.
 </p>
 
 
@@ -59,9 +56,10 @@ You can follow a link to the <a href="https://docs.aspose.com/drawing/net/">Aspo
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
+In this example, we create a series of graphic primitives such as lines, rectangles and ellipses using the <a href="https://reference.aspose.com/imaging/net/aspose.imaging/graphics/drawpath/">DrawPath method</a>. At the beginning, we create a bitmap with a size of 1000x800 pixels and 32 bits per pixel color. Then we define an object Pen with two properties: color `Blue` and width `2` pixels for drawing images, and a <a href="https://reference.aspose.com/imaging/net/aspose.imaging/graphicspath/">Path object</a>. After that, we adding subsequently to the Path 2 lines with start and end X, Y coordinates: from `(100, 100)` to `(1000, 400)` and next line from `(1000, 600)` to `(300, 600)`; a Rectangle with shapes: left upper corner `(0, 0)`, width `200` and height `400` px; and an Ellipse object fitted to a rectangle: left upper corner `(10, 200)` width `450` and height `300` px. Using DrawPath method with described Pen object we draw the Path on the created bitmap. Finally we raster the image and save it into PNG file.
 </p>
 
+C# code example:
 ```cs
 using System.Drawing;
 using System.Drawing.Drawing2D;
@@ -93,7 +91,7 @@ namespace Aspose.Drawing.Examples.CSharp.LinesCurvesShapes
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-The C# code above will draw the image with Lines, Rectangle and Ellipse:
+The C# code above will draw the following image with Lines, Rectangle and Ellipse:
 </p>
 
 <img src="./drawing/DrawPath_out.png" alt="Draw Line Rectangle Ellipse Path " width="1000" height="800"/>
