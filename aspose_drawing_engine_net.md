@@ -8,7 +8,7 @@ keywords: [image drawing, draw an image]
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Drawing images is a very demanding operation with graphic libraries for developers, researchers, students and managers who create graphic applications and services on .NET platform. Aspose.Drawing is a modern cross-platform image library with enhanced capabilities. With the Aspose library for .NET it is possible effectively draw lines and shapes using different Pen and Brush objects, texts with different fonts and styles, and make various transformations. The ready-to-use graphic library helps to increase productivity, dramatically reduce development and time-to-market period. The Microsoft System.Drawing.Common library recently changed its support for non-Windows platforms and Aspose.Drawing will be a proper replacement for drawing images.
+Drawing images is a very demanding operation with graphic libraries for developers, researchers, students and managers who create graphic applications and services on .NET platform. Aspose.Drawing is a modern cross-platform image library with enhanced capabilities. With the Aspose library for .NET it is possible effectively draw lines and shapes using different Pen and Brush objects, texts with different fonts and styles, and make various transformations, and raster images in all commonly used graphics file formats. The ready-to-use graphic library helps to increase productivity, dramatically reduce development and time-to-market period. The Microsoft System.Drawing.Common library recently changed its support for non-Windows platforms and Aspose.Drawing will be a proper replacement for drawing images.
 
 </p>
 
@@ -26,7 +26,7 @@ On May 22, 2023, the Microsoft Learn portal published an article about a breakin
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Aspose.Drawing package is available for download from the  <a href="https://www.nuget.org/packages/Aspose.Drawing">NuGet package manager repository</a>. The Aspose package
+Aspose.Drawing package is available for download from the  <a href="https://www.nuget.org/packages/Aspose.Drawing">NuGet package manager repository</a>. The Aspose package 
 
 <a href="https://products.aspose.com/drawing/net/">.NET APIs for 2D Graphics Drawing</a>
 
@@ -37,8 +37,7 @@ Aspose.Drawing package is available for download from the  <a href="https://www.
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-<a href="https://docs.aspose.com/drawing/net/">Aspose.Drawing for .NET</a>
+Graphic libraries for .NET are used not only on the Windows platform but also very popular for other systems like Linux, Android or WebAssembly. The big advantage of Aspose.Drawing - is a cross-platform solution, you can use it at the same time on different platforms. Development with the same library streamlines the application creation process. You can reuse once-developed code on multiple platforms. Aspose.Drawing library capabilities provides you with a whole range of 2D drawing features as:
 </p>
 
 - Creating bitmaps from scratch or loading from files.
@@ -52,6 +51,7 @@ Aspose.Drawing package is available for download from the  <a href="https://www.
 - Working with clip regions.
 - Using affine transformations.
 
+You can follow a link to the <a href="https://docs.aspose.com/drawing/net/">Aspose.Drawing for .NET documentation</a> for a full feature list.
 
 ## Cross platform drawing API for C# (.NET)
 
