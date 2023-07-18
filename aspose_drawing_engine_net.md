@@ -52,6 +52,18 @@ You can follow a link to the <a href="https://docs.aspose.com/drawing/net/">Aspo
 
 ## Cross platform drawing API for C# (.NET)
 
+  <style>
+   .frame {
+    border: 2px solid darkgray;
+    padding: 5px;
+    margin: 10px 0 5px 5px;
+    background: #f0f0f0;
+   }
+   .frame figcaption {
+    margin: 0 auto 5px;
+   }
+  </style>
+
 ### Drawing lines and shapes
 
 <p align='justify'>
@@ -94,7 +106,12 @@ namespace Aspose.Drawing.Examples.CSharp.LinesCurvesShapes
 The C# code above will draw the following image with Lines, Rectangle and Ellipse:
 </p>
 
+<figure class="frame">
+<p>
 <img src="./drawing/DrawPath_out.png" alt="Draw Line Rectangle Ellipse Path " width="1000" height="800"/>
+<figcaption>Example of drawing lines, rectangles and ellipses</figcaption>
+</p>
+</figure>
 
 You can find more examples in <a href="https://reference.aspose.com/imaging/net/aspose.imaging/graphics/drawpath/">Aspose documentation</a>.
 
@@ -106,7 +123,12 @@ You can find more examples in <a href="https://reference.aspose.com/imaging/net/
 
 {% gist aspose-com-gists/660f3761ba6652f5bbd06bd535ac4bf9 draw-arc.cs %}
 
-<img src="./drawing/DrawArc_out.png" alt="Draw Arc with Aspose.Drawing" width="" height=""/>
+<figure class="frame">
+<p>
+<img src="./drawing/DrawArc_out.png" alt="Draw Arc with Aspose.Drawing" width="1000" height="800"/>
+<figcaption>Example DrawArc</figcaption>
+</p>
+</figure>
 
 <a href="https://github.com/aspose-drawing/Aspose.Drawing-for-.NET">Aspose.Drawing for .NET Examples</a>
 
