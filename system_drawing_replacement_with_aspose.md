@@ -4,7 +4,7 @@ description: Aspose.Drawing program library for image drawing. Alternative repla
 keywords: [image drawing, draw an image]
 ---
 
-# Aspose.Drawing next-generation draw image engine for .NET7 and higher
+# Intro
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -12,7 +12,7 @@ Drawing images with graphic libraries is a very demanding operation for develope
 
 </p>
 
-## System.Drawing replacement with Aspose.Drawing
+# System.Drawing replacement with Aspose.Drawing
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -20,3 +20,5 @@ Aspose.Drawing for .NET is a powerful cross-platform program library for 2D grap
 On May 22, 2023, the Microsoft Learn portal published an article about a breaking change: 
 <a href="https://learn.microsoft.com/en-us/dotnet/core/compatibility/core-libraries/6.0/system-drawing-common-windows-only">System.Drawing.Common only supported on Windows</a>. Now, if you try to compile a program with the System.Drawing.Common package on non-Windows environments, the exception will be thrown that your platform is not supported. Despite of you can still switch off this warning, it is recommended to migrate to other libraries. Aspose.Drawing is a good choice for drawing application development for .NET Framework, .NET Core and for Xamarin applications for Windows, Linux, Android, Azure Functions or Blazor WebAssembly.
 </p>
+
+## How to replace System.Drawing.Common for your project

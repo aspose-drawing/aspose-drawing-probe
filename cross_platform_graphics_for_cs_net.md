@@ -23,3 +23,5 @@ Graphic libraries for .NET are used not only on the Windows platform but also ve
 - Using affine transformations.
 
 You can follow a link to the <a href="https://docs.aspose.com/drawing/net/">Aspose.Drawing for .NET documentation</a> for a full feature list.
+
+## How to install

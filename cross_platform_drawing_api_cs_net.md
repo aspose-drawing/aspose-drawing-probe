@@ -18,7 +18,7 @@ keywords: [image drawing, draw an image]
 
 # Cross platform drawing API for C# (.NET)
 
-## Drawing lines and shapes
+## How drawing lines and shapes
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -70,7 +70,7 @@ The C# code above will draw the following image with Lines, Rectangle and Ellips
 You can find more examples in <a href="https://reference.aspose.com/imaging/net/aspose.imaging/graphics/drawpath/">Aspose documentation</a>.
 
 
-## Drawing arcs
+## How drawing arcs
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
