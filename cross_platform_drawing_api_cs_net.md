@@ -35,7 +35,8 @@ Graphics API for ASP site]
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-In this example, we create a series of graphic primitives such as lines, rectangles and ellipses using the <a href="https://reference.aspose.com/imaging/net/aspose.imaging/graphics/drawpath/">DrawPath method</a>. At the beginning, we create a bitmap with a size of 1000x800 pixels and 32 bits per pixel color. Then we define an object Pen with two properties: color `Blue` and width `2` pixels for drawing images, and a <a href="https://reference.aspose.com/imaging/net/aspose.imaging/graphicspath/">Path object</a>. After that, we adding subsequently to the Path 2 lines with start and end X, Y coordinates: from `(100, 100)` to `(1000, 400)` and next line from `(1000, 600)` to `(300, 600)`; a Rectangle with shapes: left upper corner `(0, 0)`, width `200` and height `400` px; and an Ellipse object fitted to a rectangle: left upper corner `(10, 200)` width `450` and height `300` px. Using DrawPath method with described Pen object we draw the Path on the created bitmap. Finally we raster the image and save it into PNG file.
+In this example, we demonstrate how to create a series of graphic primitives, including lines, rectangles, and ellipses, using the <a href="https://reference.aspose.com/imaging/net/aspose.imaging/graphics/drawpath/">DrawPath method</a>. To start, we create a bitmap with a size of `1000x800` pixels and a color depth of 32 bits per pixel. Next, we define a Pen object with two properties: the color set to `Blue` and a width of 2
+pixels, which will be used for drawing the images, along with a <a href="https://reference.aspose.com/imaging/net/aspose.imaging/graphicspath/">Path object</a>. Following that, we sequentially add two lines to the Path, each defined by its starting and ending X, Y coordinates: one from (100, 100) to (1000, 400), and another line from (1000, 600) to (300, 600); a Rectangle with the following specifications: left upper corner at (0, 0), width of 200, and height of 400 pixels; and an Ellipse object fitted within a rectangle, positioned at the left upper corner (10, 200), with a width of 450 and a height of 300 pixels. Using the DrawPath method and the previously described Pen object, we draw the Path onto the created bitmap. Finally, we rasterize the image and save it as a PNG file.
 </p>
 
 C# code example:
@@ -70,7 +71,7 @@ namespace Aspose.Drawing.Examples.CSharp.LinesCurvesShapes
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-The C# code above will draw the following image with Lines, Rectangle and Ellipse:
+The C# code above will draw the following image with Lines, Rectangles and Ellipses:
 </p>
 
 <figure class="frame">

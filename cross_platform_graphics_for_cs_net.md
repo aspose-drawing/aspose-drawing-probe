@@ -27,7 +27,7 @@ Drawing library for Blazor
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
+Graphic libraries for .NET are not limited to the Windows platform; they are also widely popular on other systems such as Linux, Android, and WebAssembly. One major advantage of Aspose.Drawing.Common is its cross-platform compatibility, allowing you to utilize it simultaneously on multiple platforms. Developing with a single library streamlines the application creation process. You can reuse code developed once across multiple platforms.
 </p>
 
 

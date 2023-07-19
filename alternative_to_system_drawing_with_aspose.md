@@ -19,16 +19,15 @@ Drawing library for Windows
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Aspose.Drawing.Common package is available for download from the  <a href="https://www.nuget.org/packages/Aspose.Drawing.Common">NuGet package manager repository</a>. The Aspose package supports any 32-bit or 64-bit operating system where .NET Framework or .NET Core is installed and fully compatible with System.Drawing.Common API. Please find the API description on <a href="https://products.aspose.com/drawing/net/">Aspose .NET APIs for 2D Graphics Drawing</a> product page.
+The Aspose.Drawing.Common package can be downloaded from the <a href="https://www.nuget.org/packages/Aspose.Drawing.Common">NuGet package manager repository</a>. The Aspose package is compatible with any 32-bit or 64-bit operating system where .NET Standard 2.0, NET Core 3.1, NET6, NET7, NET8 and higher is installed and fully supports the System.Drawing.Common API. For the API description, please refer to the <a href="https://products.aspose.com/drawing/net/">Aspose .NET APIs for 2D Graphics Drawing</a> product page.
 </p>
 
 
-## Aspose.Drawing features description
-
+## Aspose.Drawing.Common features description
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Graphic libraries for .NET are used not only on the Windows platform but also very popular for other systems like Linux, Android or WebAssembly. The big advantage of Aspose.Drawing - is a cross-platform solution, you can use it at the same time on different platforms. Development with the same library streamlines the application creation process. You can reuse once-developed code on multiple platforms. Aspose.Drawing library capabilities provides you with a whole range of 2D drawing features as:
+The Aspose.Drawing library provides a wide range of 2D drawing features, including:
 </p>
 
 - Creating bitmaps from scratch or loading from files.
