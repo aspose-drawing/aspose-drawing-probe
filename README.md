@@ -4,40 +4,42 @@ Competitors:
 
 - Sixlabs ImageSharp
 - Mono SkiaSharp
+- MAUI
 
 ---
 
-# [1. System.Drawing replacement with Aspose.Drawing for .NET](./system_drawing_replacement_with_aspose.md)
+# [1. System.Drawing.Common replacement with Aspose.Drawing for .NET](./system_drawing_replacement_with_aspose.md)
 
-description: Aspose.Drawing image library for drawing pictures. Replacement for Microsoft NET System.Drawing 2D graphics. Draw image with .NET (C#) for graphic application development.
+description: Aspose.Drawing library for drawing pictures. Replacement for Microsoft NET System.Drawing.Common 2D graphics. Draw image with .NET (C#) for graphic application development.
 
 keywords: [
 drawing pictures,
 dot net,
 c#,
 microsoft net,
-system drawing,
+system drawing common,
+aspose drawing,
+system drawing replacement,
 draw image,
-image library,
+drawing library,
 graphic drawing,
 2D graphics,
-drawing application
+drawing application,
+Drawing library for Windows
 ]
 
 ## 1.1 System.Drawing.Common limitations
 
-## 1.2 What is the available replacements for System.Drawing.Common
+## 1.2 Why choose Aspose.Drawing.Common for System.Drawing.Common replacement
 
-## 1.3 How to select proper 2D graphics library 
-
-## 1.4 How to replace System.Drawing.Common for your project
+## 1.3 How to replace System.Drawing.Common for your project
 
 ---
 
 
-# [2. Aspose.Drawing as alternative to System.Drawing 2D graphics engine for .NET](./alternative_to_system_drawing_with_aspose.md)
+# [2. Aspose.Drawing.Common as alternative to System.Drawing.Common 2D graphics engine for .NET](./alternative_to_system_drawing_with_aspose.md)
 
-description: Alt draw pictures with Aspose.Drawing C# API for image drawing. Alternative to Microsoft NET System.Drawing. Image drawing .NET (C#) for 2D graphics application development. Nuget package download.
+description: Alt draw pictures with Aspose.Drawing.Common C# API for image drawing. Alternative to Microsoft NET System.Drawing.Common image drawing library for Windows 2D graphics. Nuget package download.
 
 keywords: [
 drawing pictures,
@@ -49,7 +51,7 @@ bezier curves,
 nuget package,
 alpha blending,
 rendering text,
-image converter
+Drawing library for Windows
 ]
 
 ## 2.1 Aspose.Drawing features description
@@ -61,7 +63,7 @@ image converter
 
 # [3. Cross-platform library for 2D drawing pictures for .NET](./cross_platform_graphics_for_cs_net.md)
 
-description: Aspose.Drawing library for Microsoft .NET to draw pictures. Support 2D drawing including drawing lines, drawing shapes and bezier curves. Using affine transformation, anti-aliasing lines and shapes. Rendering text with different styles and fonts.
+description: Aspose.Drawing library for Microsoft .NET to draw pictures. Cross platform drawing library for support 2D drawing including drawing lines, drawing shapes and bezier curves. Using affine transformation, anti-aliasing lines and shapes. Rendering text with different styles and fonts.
 
 keywords: [
 drawing pictures,
@@ -73,7 +75,13 @@ image drawing,
 2d drawing,
 csharp net,
 cross platform,
-web assembly
+web assembly,
+Drawing library for Windows,
+Drawing library for Linux,
+Drawing library for Azure,
+Graphics library for ASP site,
+Graphics library for Web application,
+Drawing library for Blazor
 ]
 
 ## 3.1 Aspose.Drawing supported platforms
@@ -85,7 +93,7 @@ web assembly
 
 # [4. Cross-platform drawing C# API for .NET](./cross_platform_drawing_api_cs_net.md)
 
-description: Aspose.Drawing library for Microsoft .NET to draw pictures. Support C# API for 2D drawing including drawing lines, drawing shapes, drawing path and drawing rectangles.
+description: Aspose.Drawing library for Microsoft .NET to draw pictures. Cross platform support C# Graphics API for 2D drawing including drawing lines, drawing shapes, drawing path and drawing rectangles.
 
 keywords: [
 drawing pictures,
@@ -97,7 +105,11 @@ dot net,
 drawing shapes,
 geometric drawings,
 c# api,
-cross platform
+cross platform,
+Drawing API for Windows,
+Drawing API for Linux,
+Drawing API for Azure,
+Graphics API for ASP site
 ]
 
 ## 4.1 How to draw lines and shapes
