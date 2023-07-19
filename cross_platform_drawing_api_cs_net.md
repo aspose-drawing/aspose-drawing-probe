@@ -1,7 +1,20 @@
 ---
-title: Aspose.Drawing next-generation draw image engine for .NET7 and higher
-description: Aspose.Drawing program library for image drawing. Alternative replacement to System.Drawing. Image drawing .NET (C#) for graphic application development.
-keywords: [image drawing, draw an image]
+title: Cross-platform drawing C# API for .NET
+description: Aspose.Drawing library for Microsoft .NET to draw pictures. Cross platform support C# Graphics API for 2D drawing including drawing lines, drawing shapes, drawing path and drawing rectangles.
+keywords: [drawing pictures,
+lines drawing,
+draw lines,
+vector images,
+vector file,
+dot net,
+drawing shapes,
+geometric drawings,
+c# api,
+cross platform,
+Drawing API for Windows,
+Drawing API for Linux,
+Drawing API for Azure,
+Graphics API for ASP site]
 ---
 
 <style>
@@ -70,7 +83,7 @@ The C# code above will draw the following image with Lines, Rectangle and Ellips
 You can find more examples in <a href="https://reference.aspose.com/imaging/net/aspose.imaging/graphics/drawpath/">Aspose documentation</a>.
 
 
-## How drawing arcs
+## How to make geometric drawings with arcs and Bezier curves
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -87,3 +100,6 @@ You can find more examples in <a href="https://reference.aspose.com/imaging/net/
 <a href="https://github.com/aspose-drawing/Aspose.Drawing-for-.NET">Aspose.Drawing for .NET Examples</a>
 
 </p>
+
+
+## How to render text
