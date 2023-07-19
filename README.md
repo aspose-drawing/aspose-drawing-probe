@@ -12,16 +12,16 @@ Competitors:
 description: Aspose.Drawing image library for drawing pictures. Replacement for Microsoft NET System.Drawing 2D graphics. Draw image with .NET (C#) for graphic application development.
 
 keywords: [
-dot net,
 drawing pictures,
+dot net,
+c#,
+microsoft net,
+system drawing,
 draw image,
 image library,
-microsoft net,
-Graphic drawing,
-System Drawing,
+graphic drawing,
 2D graphics,
-drawing application,
-image drawing,
+drawing application
 ]
 
 ## 1.1 System.Drawing.Common limitations
@@ -40,21 +40,21 @@ image drawing,
 description: Alt draw pictures with Aspose.Drawing C# API for image drawing. Alternative to Microsoft NET System.Drawing. Image drawing .NET (C#) for 2D graphics application development. Nuget package download.
 
 keywords: [
-dot net,
-draw pictures,
+drawing pictures,
+anti aliasing,
 alt draw,
+dot net,
+affine transformation,
+bezier curves,
 nuget package,
-draw image,
-microsoft net,
-system drawing,
-2D graphics,
-NET API,
-c# api
+alpha blending,
+rendering text,
+image converter
 ]
 
 ## 2.1 Aspose.Drawing features description
 
-## 2.2 Aspose.Drawing supported formats
+## 2.2 Aspose.Drawing supported image formats
 
 ---
 
@@ -64,16 +64,16 @@ c# api
 description: Aspose.Drawing library for Microsoft .NET to draw pictures. Support 2D drawing including drawing lines, drawing shapes and bezier curves. Using affine transformation, anti-aliasing lines and shapes. Rendering text with different styles and fonts.
 
 keywords: [
+drawing pictures,
+c sharp,
 dot net,
-draw pictures,
-anti aliasing,
+asp net,
 microsoft net,
-drawing lines,
-drawing shapes,
-affine transformation,
+image drawing,
 2d drawing,
-bezier curves,
-rendering text,
+csharp net,
+cross platform,
+web assembly
 ]
 
 ## 3.1 Aspose.Drawing supported platforms
@@ -88,25 +88,23 @@ rendering text,
 description: Aspose.Drawing library for Microsoft .NET to draw pictures. Support C# API for 2D drawing including drawing lines, drawing shapes, drawing path and drawing rectangles.
 
 keywords: [
+drawing pictures,
+lines drawing,
+draw lines,
+vector images,
+vector file,
 dot net,
-draw pictures,
-drawing lines,
 drawing shapes,
-microsoft net,
-2d drawing,
+geometric drawings,
 c# api,
-System Drawing,
-draw path,
-draw rectangle
+cross platform
 ]
 
 ## 4.1 How to draw lines and shapes
 
-## 4.2 How to draw arcs
+## 4.2 How to make geometric drawings with arcs and Bezier curves
 
-## 4.3 How to draw Bezier curves
-
-## 4.4 How to render text
+## 4.3 How to render text
 
 ---
 
