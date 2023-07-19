@@ -41,7 +41,7 @@ Drawing library for Windows
 
 # [2. Aspose.Drawing.Common as an alternative to System.Drawing.Common 2D graphics engine for .NET](./alternative_to_system_drawing_with_aspose.md)
 
-description: Alt draw pictures with Aspose.Drawing.Common C# API for image drawing. Alternative to Microsoft NET System.Drawing.Common image drawing library for Windows 2D graphics. Nuget package download.
+description: Alt draw pictures with Aspose.Drawing.Common C# API for image drawing. Cross platform drawing library for support 2D drawing including drawing lines, drawing shapes and bezier curves. Using affine transformation, anti-aliasing lines and shapes. Rendering text with different styles and fonts.
 
 keywords: [
 drawing pictures,
@@ -65,7 +65,7 @@ Drawing library for Windows
 
 # [3. Cross-platform library for 2D drawing pictures for .NET](./cross_platform_graphics_for_cs_net.md)
 
-description: Aspose.Drawing library for Microsoft .NET to draw pictures. Cross platform drawing library for support 2D drawing including drawing lines, drawing shapes and bezier curves. Using affine transformation, anti-aliasing lines and shapes. Rendering text with different styles and fonts.
+description: Aspose.Drawing library for Microsoft .NET to draw pictures. Cross-platform alternative to Microsoft NET System.Drawing.Common image drawing library for Windows 2D graphics. Nuget package download.
 
 keywords: [
 drawing pictures,
@@ -73,6 +73,7 @@ c sharp,
 dot net,
 asp net,
 microsoft net,
+nuget package,
 image drawing,
 2d drawing,
 csharp net,

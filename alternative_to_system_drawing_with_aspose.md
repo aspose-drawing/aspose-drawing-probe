@@ -1,6 +1,6 @@
 ---
 title: Aspose.Drawing.Common as an alternative to System.Drawing.Common 2D graphics engine for .NET
-description: Alt draw pictures with Aspose.Drawing.Common C# API for image drawing. Alternative to Microsoft NET System.Drawing.Common image drawing library for Windows 2D graphics. Nuget package download.
+description: Alt draw pictures with Aspose.Drawing.Common C# API for image drawing. Cross platform drawing library for support 2D drawing including drawing lines, drawing shapes and bezier curves. Using affine transformation, anti-aliasing lines and shapes. Rendering text with different styles and fonts.
 keywords: [
 drawing pictures,
 anti aliasing,

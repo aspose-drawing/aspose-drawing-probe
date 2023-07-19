@@ -1,12 +1,13 @@
 ---
 title: Cross-platform library for 2D drawing pictures for .NET
-description: Aspose.Drawing library for Microsoft .NET to draw pictures. Cross platform drawing library for support 2D drawing including drawing lines, drawing shapes and bezier curves. Using affine transformation, anti-aliasing lines and shapes. Rendering text with different styles and fonts.
+description: Aspose.Drawing library for Microsoft .NET to draw pictures. Cross-platform alternative to Microsoft NET System.Drawing.Common image drawing library for Windows 2D graphics. Nuget package download.
 keywords: [
 drawing pictures,
 c sharp,
 dot net,
 asp net,
 microsoft net,
+nuget package,
 image drawing,
 2d drawing,
 csharp net,
