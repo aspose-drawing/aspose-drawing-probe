@@ -112,7 +112,7 @@ You can follow a link to the <a href="https://docs.aspose.com/drawing/net/">Aspo
 
 </p>
 ---
-title: Cross-platform library for 2D drawing pictures for .NET
+title: Cross-platform graphics library for 2D drawing pictures for .NET
 description: Aspose.Drawing library for Microsoft .NET to draw pictures. Cross-platform alternative to Microsoft NET System.Drawing.Common image drawing library for Windows 2D graphics. Nuget package download.
 keywords: [
 drawing pictures,
@@ -135,13 +135,19 @@ Drawing library for Blazor
 ]
 ---
 
-# Cross-platform library for 2D drawing pictures for .NET
+# Cross-platform graphics library for 2D drawing pictures for .NET
+
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Drawing libraries for Microsoft .NET are widely utilized for creating 2D drawing applications and services. Developing a C# (C sharp) application for image drawing that can run on multiple platforms enables you to reach a broader customer base with minimal effort. Aspose.Drawing is a cross-platform solution for .NET that supports the most popular platforms and consistently delivers excellent quality results.
+</p>
+
 
 ## Aspose.Drawing supported platforms
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Graphic libraries for .NET are not limited to the Windows platform; they are also widely popular on other systems such as Linux, Android, and WebAssembly. One major advantage of Aspose.Drawing.Common is its cross-platform compatibility, allowing you to utilize it simultaneously on multiple platforms. Developing with a single library streamlines the application creation process. You can reuse code developed once across multiple platforms.
+Graphic libraries for .NET are not limited to the Windows platforms; they are also widely popular on other systems such as MacOS, Linux, Android, Azure Functions, ASP.NET WebApp and Blazor WebAssembly. One major advantage of Aspose.Drawing.Common is its cross-platform compatibility, allowing you to utilize it simultaneously on multiple platforms. Developing with a single library streamlines the application creation process. You can reuse code developed once across multiple platforms. Aspose.Drawing is compatible with all target platforms listed in the <a href="https://www.nuget.org/packages/Aspose.Drawing.Common#supportedframeworks-body-tab">Supported frameworks list</a>, making it suitable for any choice you make.
 </p>
 
 
@@ -149,7 +155,33 @@ Graphic libraries for .NET are not limited to the Windows platform; they are als
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+If you are developing within the Visual Studio development environment, you can easily install Aspose.Drawing using the integrated NuGet package manager. Simply search for `Aspose`, select `Aspose.Drawing` or `Aspose.Drawing.Common`, and click Install. Alternatively, you can install Aspose.Drawing from the NuGet package manager command line by typing the following command:
+</p>
 
+```sh
+> Install-Package Aspose.Drawing
+```
+
+For more detailed installation instructions please visit the
+<a href="https://docs.aspose.com/drawing/net/installation/">Aspose.Drawing Installation Guide</a>.
+
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Aspose.Drawing can serve as a graphic library for various target platforms, including Windows, MacOS, Linux, Azure, ASP sites, and Blazor WebAssembly applications. In Visual Studio, you have the flexibility to create new projects and run C# programs on .NET as Console Applications on Windows, Linux, or MacOS, as Web applications using ASP.NET Core or Blazor WebAssembly. Additionally, you can utilize the same Aspose drawing library for .NET MAUI applications on mobile platforms like Android or iOS.
+</p>
+
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+To run a .NET application on Linux, you simply need to have .NET installed and ensure that `Aspose.Drawing.dll` is available in your project folder. You can download the binaries from the <a href="https://downloads.aspose.com/drawing/net">official Aspose website</a>. Alternatively, you can define the API using the command line command:
+</p>
+
+```sh
+> dotnet add package Aspose.Drawing
+```
+
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Aspose.Drawing graphics library relies solely on its own rendering functions, eliminating the need to install any other 3rd party components. Furthermore, you can run C# applications with the Aspose library in a Docker container. For more information about Docker installation, please refer to the <a href="https://docs.aspose.com/drawing/net/how-to-run-aspose-drawing-in-docker/">Aspose.Drawing documentation</a>."
 </p>
 ---
 title: Cross-platform drawing C# API for .NET
