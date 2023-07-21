@@ -48,5 +48,5 @@ Fortunately, Aspose.Drawing.Common avoids these drawbacks by not depending on an
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
+Upgrading from System.Drawing.Common to Aspose.Drawing.Common is a seamless and straightforward process. Aspose.Drawing.Common offers a fully compatible API, preserving the same class names, functions, and interfaces. To migrate, simply update your project reference from `System` to `Aspose` and recompile the application. Once completed, your application will work smoothly across different platforms, delivering consistent results. You can conveniently download a trial package of <a href="https://www.nuget.org/packages/Aspose.Drawing.Common">Aspose.Drawing.Common from Nuget packages portal</a> or directly obtain the .DLL file from the <a href="https://releases.aspose.com/drawing/net/">Aspose releases portal</a>. For detailed instructions on installing Aspose.Drawing, please refer to the <a href="https://docs.aspose.com/drawing/net/installation/">Aspose.Drawing installation guide</a>.
 </p>
