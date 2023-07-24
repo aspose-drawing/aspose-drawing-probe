@@ -94,7 +94,7 @@ The C# code above will draw the following image with Lines, Rectangles and Ellip
 You can find more examples in <a href="https://reference.aspose.com/imaging/net/aspose.imaging/graphics/drawpath/">Aspose documentation</a>.
 
 
-## How to make geometric drawings with arcs and Bezier curves
+## How to create geometric drawings with arcs and Bezier curves
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -148,6 +148,15 @@ bitmap.Save(RunExamples.GetDataDir() + @"LinesCurvesShapes\DrawBezierSpline_out.
 
 ## How to render text
 
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Let's try a more intricate example with text drawing. We will render a text with anti-aliasing and clip it within an elliptical area. To begin, we create a graphics object using a bitmap with dimensions 1000x800 px, and then set the `TextRenderingHint` graphics property to `AntiAliasGridFit`. Next, we create a `GraphicsPath` object representing a rectangle with coordinates from (200, 200) to (600, 400). We then clip an ellipse area that fits within this rectangle. Afterward, we create a `StringFormat` object, a `Brush` object, set the alignment, and select an appropriate font with the desired size and style. Finally, we use the <a href="https://reference.aspose.com/imaging/net/aspose.imaging/graphics/drawstring/">`DrawString` method</a> to create a text string with the clipped ellipse area.
+</p>
+
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+The C# code example to draw a text string:
+</p>
 
 ```cs
 Bitmap bitmap = new Bitmap(1000, 800, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
@@ -173,8 +182,8 @@ bitmap.Save(RunExamples.GetDataDir() + @"Rendering\Clipping_out.png");
 <figure class="frame">
 <p>
 <img src="./drawing/Clipping_out.png" alt="Draw text string and clipping with Aspose.Drawing" width="1000" height="800"/>
-<figcaption>Example of drawing text string with clip</figcaption>
+<figcaption>Example of drawing text string with clipping</figcaption>
 </p>
 </figure>
 
-For more examples please visit github account: <a href="https://github.com/aspose-drawing/Aspose.Drawing-for-.NET">Aspose.Drawing for .NET</a>.
+For more examples please visit Aspose's official GitHub repository: <a href="https://github.com/aspose-drawing/Aspose.Drawing-for-.NET">Aspose.Drawing for .NET</a>.
