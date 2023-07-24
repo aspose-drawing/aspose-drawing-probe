@@ -116,6 +116,11 @@ The C# code example to draw an arc:
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+To draw a Bezier curve, you need to utilize the <a href="https://reference.aspose.com/imaging/net/aspose.imaging/graphics/drawbezier/">`DrawBezier` method</a>. This method takes a Pen object and four sets of coordinates representing Point objects, which are used to define the curve. The first point represents the starting point for drawing, followed by the first control point, the second control point, and finally, the ending point of the curve. The Aspose.Drawing graphic library automatically calculates and draws the Bezier curve from the starting point to the endpoint, taking into account the curve direction based on the control points.
+</p>
+
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 The C# code example to draw a Bezier curve:
 </p>
 
@@ -172,4 +177,4 @@ bitmap.Save(RunExamples.GetDataDir() + @"Rendering\Clipping_out.png");
 </p>
 </figure>
 
-<a href="https://github.com/aspose-drawing/Aspose.Drawing-for-.NET">Aspose.Drawing for .NET Examples</a>
+For more examples please visit github account: <a href="https://github.com/aspose-drawing/Aspose.Drawing-for-.NET">Aspose.Drawing for .NET</a>.
