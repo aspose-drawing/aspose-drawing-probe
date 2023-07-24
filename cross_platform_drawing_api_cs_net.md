@@ -23,9 +23,14 @@ Graphics API for ASP site]
     padding: 5px;
     margin: 10px 0 5px 5px;
     background: #f0f0f0;
+    align-items: center;
    }
    .frame figcaption {
     margin: 0 auto 5px;
+	display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
    }
 </style>
 
