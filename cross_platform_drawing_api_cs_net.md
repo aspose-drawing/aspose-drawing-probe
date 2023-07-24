@@ -98,7 +98,13 @@ You can find more examples in <a href="https://reference.aspose.com/imaging/net/
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Similar to the previous example of 2D geometrics drawings, to draw an arc, we begin by creating a 1000x800 bitmap and then proceed to create a Pen object with the color `Blue`` and a width of `2` px. Next, we create an arc object with <a href="https://reference.aspose.com/imaging/net/aspose.imaging/graphics/drawarc/">method `DrawArc`</a>. As method parameters, we pass the object `Pen`` followed by rectangle coordinates where our arc will be fitted: upper left point (0, 0) and bottom right point (700, 700). And the last two parameters are begin and end angles to draw the arc: from 0 degrees to 180 degrees. Angle in degrees measured clockwise from the x-axis to the starting point of the arc.
+</p>
 
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+The C# code example to draw an arc:
+</p>
 {% gist aspose-com-gists/660f3761ba6652f5bbd06bd535ac4bf9 draw-arc.cs %}
 
 <figure class="frame">
@@ -108,9 +114,9 @@ You can find more examples in <a href="https://reference.aspose.com/imaging/net/
 </p>
 </figure>
 
-<a href="https://github.com/aspose-drawing/Aspose.Drawing-for-.NET">Aspose.Drawing for .NET Examples</a>
 
-</p>
 
 
 ## How to render text
+
+<a href="https://github.com/aspose-drawing/Aspose.Drawing-for-.NET">Aspose.Drawing for .NET Examples</a>
