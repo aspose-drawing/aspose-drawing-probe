@@ -186,4 +186,9 @@ bitmap.Save(RunExamples.GetDataDir() + @"Rendering\Clipping_out.png");
 </p>
 </figure>
 
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Utilizing the C# API of the Aspose.Drawing graphics library allows you to create geometric drawings of any level of complexity, providing the flexibility to develop cross-platform applications with consistently excellent results.
+</p>
+
 For more examples please visit Aspose's official GitHub repository: <a href="https://github.com/aspose-drawing/Aspose.Drawing-for-.NET">Aspose.Drawing for .NET</a>.

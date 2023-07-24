@@ -117,7 +117,7 @@ Graphics API for ASP site
 
 ## 4.1 How to draw lines and shapes
 
-## 4.2 How to make geometric drawings with arcs and Bezier curves
+## 4.2 How to create geometric drawings with arcs and Bezier curves
 
 ## 4.3 How to render text
 

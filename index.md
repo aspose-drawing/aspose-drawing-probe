@@ -279,7 +279,7 @@ The C# code above will draw the following image with Lines, Rectangles and Ellip
 You can find more examples in <a href="https://reference.aspose.com/imaging/net/aspose.imaging/graphics/drawpath/">Aspose documentation</a>.
 
 
-## How to make geometric drawings with arcs and Bezier curves
+## How to create geometric drawings with arcs and Bezier curves
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -370,5 +370,10 @@ bitmap.Save(RunExamples.GetDataDir() + @"Rendering\Clipping_out.png");
 <figcaption>Example of drawing text string with clipping</figcaption>
 </p>
 </figure>
+
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Utilizing the C# API of the Aspose.Drawing graphics library allows you to create geometric drawings of any level of complexity, providing the flexibility to develop cross-platform applications with consistently excellent results.
+</p>
 
 For more examples please visit Aspose's official GitHub repository: <a href="https://github.com/aspose-drawing/Aspose.Drawing-for-.NET">Aspose.Drawing for .NET</a>.
