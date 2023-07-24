@@ -185,7 +185,7 @@ Aspose.Drawing graphics library relies solely on its own rendering functions, el
 </p>
 ---
 title: Cross-platform drawing C# API for .NET
-description: Aspose.Drawing library for Microsoft .NET to draw pictures. Cross platform support C# Graphics API for 2D drawing including drawing lines, drawing shapes, drawing path and drawing rectangles.
+description: Aspose.Drawing library for Microsoft .NET for drawing pictures. Cross-platform support of C# Graphics API for 2D geometric drawings such as drawing lines, drawing shapes, drawing path and drawing rectangles.
 keywords: [drawing pictures,
 lines drawing,
 draw lines,
@@ -208,13 +208,23 @@ Graphics API for ASP site]
     padding: 5px;
     margin: 10px 0 5px 5px;
     background: #f0f0f0;
+    align-items: center;
    }
    .frame figcaption {
     margin: 0 auto 5px;
+	display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
    }
 </style>
 
-# Cross platform drawing API for C# (.NET)
+# Cross-platform drawing API for C# (.NET)
+
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+The Asp.Drawing library provides a cross-platform C# API for creating geometric drawings. With Asp.Drawing, you can effortlessly draw vector images such as lines, shapes, rectangles, polygons, arcs, Bezier curves, and text with various fonts and styles. Additionally, you can apply different transformations to 2D objects and save the results as raster or vector files. You can utilize the same Aspose library as a drawing API for Windows, Linux, Azure, or as a graphic API for ASP sites, ensuring consistent quality and performance across all target platforms.
+</p>
 
 ## How drawing lines and shapes
 

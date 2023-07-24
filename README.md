@@ -96,7 +96,7 @@ Drawing library for Blazor
 
 # [4. Cross-platform drawing C# API for .NET](./cross_platform_drawing_api_cs_net.md)
 
-description: Aspose.Drawing library for Microsoft .NET to draw pictures. Cross platform support C# Graphics API for 2D drawing including drawing lines, drawing shapes, drawing path and drawing rectangles.
+description: Aspose.Drawing library for Microsoft .NET for drawing pictures. Cross platform support of C# Graphics API for 2D geometric drawings such as drawing lines, drawing shapes, drawing path and drawing rectangles.
 
 keywords: [
 drawing pictures,
