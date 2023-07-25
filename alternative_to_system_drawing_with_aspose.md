@@ -15,33 +15,64 @@ Drawing library for Windows
 ]
 ---
 
+<style>
+   .frame {
+    border: 2px solid darkgray;
+    padding: 5px;
+    margin: 10px 0 5px 5px;
+    background: #f0f0f0;
+    align-items: center;
+   }
+   .frame figcaption {
+    margin: 0 auto 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+   }
+</style>
+
 # Aspose.Drawing.Common as an alternative to System.Drawing.Common 2D graphics engine for .NET
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-The alternative to the System.Drawing.Common library has become more relevant since Microsoft announced restrictions on its usage for .NET6 on non-Windows platforms due to the lack of support for 3rd party native libraries that the Microsoft library relies on. Aspose.Drawing.Common is not just a drawing library for Windows; it is also a cross-platform software, free from the shortcomings of the System.Drawing.Common library, and even surpasses other competitors' solutions.
+The alternative to the System.Drawing.Common library has become more relevant since Microsoft announced restrictions on its usage for .NET6 on non-Windows platforms due to the lack of support for 3rd party native libraries that the Microsoft library relies on. The Aspose package is compatible with any 32-bit or 64-bit operating system where .NET Standard 2.0, NET Core 3.1, NET6, NET7, NET8 and higher is installed and fully supports the System.Drawing.Common API. Aspose.Drawing.Common is not just a drawing library for Windows; it is also a cross-platform software, free from the shortcomings of the System.Drawing.Common library, and even surpasses other competitors' solutions.
 </p>
 
 ## Aspose.Drawing.Common features description
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-The Aspose.Drawing library provides a wide range of 2D drawing features, including:
+The Aspose.Drawing library offers an extensive set of 2D drawing features, including various methods for drawing lines, Bezier curves, splines, arcs, and shapes like rectangles, polygons, and ellipses, as well as processing and drawing graphics paths. Furthermore, it allows you to draw text strings as well. In contrast to other drawing libraries, Aspose provides high-quality rendering of text with anti-aliasing and hinting, ensuring that font edges appear smooth without jagged edges, and letters are readable on any kind of displays and resolutions. Aspose.Drawing has an advantage over other libraries as it also supports strikeout or underline font rendering and possibility to draw text in the shapes with alignment.
 </p>
 
-- Creating bitmaps from scratch or loading from files.
-- Drawing lines, Bezier curves, splines, and arcs.
-- Drawing shapes such as rectangles, polygons, eclipses, etc.
-- Processing and drawing graphics paths.
-- Rendering text with different fonts and styles.
-- Using different pen widths and styles.
-- Using solid and texture brushes.
-- Alpha blending and anti-aliasing lines and shapes.
-- Working with clip regions.
-- Using affine transformations.
+<figure class="frame"><p>
+<img src="./drawing/Hinting_out.png" alt="Text strings with font hinting" width="1000" height="800"/>
+<figcaption>Rendering text with font hinting</figcaption>
+</p></figure>
 
-You can follow a link to the <a href="https://docs.aspose.com/drawing/net/">Aspose.Drawing for .NET documentation</a> for a full feature list.
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+When drawing graphics, you have the flexibility to configure a pen with various colors, widths, and line styles, such as solid lines, dash lines, dot lines, or any custom combination of dashes and dots. Additionally, you can use solid and texture brushes to draw shapes. Moreover, you can utilize alpha blending and anti-aliasing for lines and shapes, allowing you to create semi-transparent objects that blend smoothly with a background image.
+</p>
 
+<figure class="frame"><p>
+<img src="./drawing/AlphaBlending_out.png" alt="" width="1000" height="800"/>
+<figcaption>Drawing with alfa-blending</figcaption>
+</p></figure>
+
+<figure class="frame"><p>
+<img src="./drawing/Antialiasing_out.png" alt="" width="1000" height="800"/>
+<figcaption>Drawing with anti-aliasing line</figcaption>
+</p></figure>
+
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+By utilizing the clipping regions method, you can create visually attractive pictures with fascinating designs. With the Aspose.Drawing library, you can draw graphics objects and then manipulate them by moving or stretching them using affine transformations.
+</p>
+
+You can follow a link to the <a href="https://docs.aspose.com/drawing/net/feature-list/">Aspose.Drawing for .NET documentation</a> for a full feature list.
+</p>
 
 ## Aspose.Drawing supported image formats
 
@@ -52,5 +83,5 @@ Using the Aspose.Drawing library, you can create drawings on a new bitmap or loa
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-The Aspose.Drawing.Common package can be downloaded from the <a href="https://www.nuget.org/packages/Aspose.Drawing.Common">NuGet package manager repository</a>. The Aspose package is compatible with any 32-bit or 64-bit operating system where .NET Standard 2.0, NET Core 3.1, NET6, NET7, NET8 and higher is installed and fully supports the System.Drawing.Common API. For the API description, please refer to the <a href="https://products.aspose.com/drawing/net/">Aspose .NET APIs for 2D Graphics Drawing</a> product page.
+The Aspose.Drawing.Common package can be downloaded from the <a href="https://www.nuget.org/packages/Aspose.Drawing.Common">NuGet package manager repository</a>. For the API description, please refer to the <a href="https://products.aspose.com/drawing/net/">Aspose .NET APIs for 2D Graphics Drawing</a> product page.
 </p>
