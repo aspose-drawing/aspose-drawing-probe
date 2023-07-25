@@ -132,8 +132,7 @@ When drawing graphics, you have the flexibility to configure a pen with various 
 By utilizing the clipping regions method, you can create visually attractive pictures with fascinating designs. With the Aspose.Drawing library, you can draw graphics objects and then manipulate them by moving or stretching them using affine transformations.
 </p>
 
-You can follow a link to the <a href="https://docs.aspose.com/drawing/net/">Aspose.Drawing for .NET documentation</a> for a full feature list.
-</p>
+You can follow a link to the <a href="https://docs.aspose.com/drawing/net/feature-list/">Aspose.Drawing for .NET documentation</a> for a full feature list.
 
 ## Aspose.Drawing supported image formats
 

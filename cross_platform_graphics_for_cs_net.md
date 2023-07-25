@@ -68,5 +68,5 @@ To run a .NET application on Linux, you simply need to have .NET installed and e
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Aspose.Drawing graphics library relies solely on its own rendering functions, eliminating the need to install any other 3rd party components. Furthermore, you can run C# applications with the Aspose library in a Docker container. For more information about Docker installation, please refer to the <a href="https://docs.aspose.com/drawing/net/how-to-run-aspose-drawing-in-docker/">Aspose.Drawing documentation</a>."
+Aspose.Drawing graphics library relies solely on its own rendering functions, eliminating the need to install any other 3rd party components. Furthermore, you can run C# applications with the Aspose library in a Docker container. For more information about Docker installation, please refer to the <a href="https://docs.aspose.com/drawing/net/how-to-run-aspose-drawing-in-docker/">Aspose.Drawing documentation</a>.
 </p>

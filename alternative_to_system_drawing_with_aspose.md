@@ -72,7 +72,6 @@ By utilizing the clipping regions method, you can create visually attractive pic
 </p>
 
 You can follow a link to the <a href="https://docs.aspose.com/drawing/net/feature-list/">Aspose.Drawing for .NET documentation</a> for a full feature list.
-</p>
 
 ## Aspose.Drawing supported image formats
 
