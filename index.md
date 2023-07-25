@@ -80,9 +80,8 @@ Drawing library for Windows
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-The Aspose.Drawing.Common package can be downloaded from the <a href="https://www.nuget.org/packages/Aspose.Drawing.Common">NuGet package manager repository</a>. The Aspose package is compatible with any 32-bit or 64-bit operating system where .NET Standard 2.0, NET Core 3.1, NET6, NET7, NET8 and higher is installed and fully supports the System.Drawing.Common API. For the API description, please refer to the <a href="https://products.aspose.com/drawing/net/">Aspose .NET APIs for 2D Graphics Drawing</a> product page.
+The alternative to the System.Drawing.Common library has become more relevant since Microsoft announced restrictions on its usage for .NET6 on non-Windows platforms due to the lack of support for 3rd party native libraries that the Microsoft library relies on. Aspose.Drawing.Common is not just a drawing library for Windows; it is also a cross-platform software, free from the shortcomings of the System.Drawing.Common library, and even surpasses other competitors' solutions.
 </p>
-
 
 ## Aspose.Drawing.Common features description
 
@@ -109,7 +108,12 @@ You can follow a link to the <a href="https://docs.aspose.com/drawing/net/">Aspo
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Using the Aspose.Drawing library, you can create drawings on a new bitmap or load an image from an existing file. Drawings are stored in memory as pixel arrays, and you have different options to save the final graphics as raster images into another image file. Unlike other libraries, the Aspose library supports a wide range of popular file formats, including TIFF, BMP, PNG, JPEG, GIF, WMF, and EMF.
+</p>
 
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+The Aspose.Drawing.Common package can be downloaded from the <a href="https://www.nuget.org/packages/Aspose.Drawing.Common">NuGet package manager repository</a>. The Aspose package is compatible with any 32-bit or 64-bit operating system where .NET Standard 2.0, NET Core 3.1, NET6, NET7, NET8 and higher is installed and fully supports the System.Drawing.Common API. For the API description, please refer to the <a href="https://products.aspose.com/drawing/net/">Aspose .NET APIs for 2D Graphics Drawing</a> product page.
 </p>
 ---
 title: Cross-platform graphics library for 2D drawing pictures for .NET
