@@ -34,7 +34,7 @@ On May 22, 2023, the Microsoft Learn portal published an article detailing a sig
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-This issue arises from the fact that System.Drawing.Common relies on a 3rd party graphic library called `GDP+`, which includes native code and lacks necessary functionality. Additionally, `GDP+` has external dependencies on other native libraries like `cairo` and `pango`. When using System.Drawing.Common on platforms different from Windows, you may encounter unpredictable behavior and platform errors within your drawing application. As a consequence, your rendered images may appear different on other platforms, leading to unexpected results.
+This issue arises from the fact that System.Drawing.Common based on the implementation of the graphic library called `GDI+`, which includes native code and lacks necessary functionality. Additionally, `GDI+` has external dependencies on other 3rd party native libraries like `cairo` and `pango`. When using System.Drawing.Common on platforms different from Windows, you may encounter unpredictable behavior and platform errors within your drawing application. As a consequence, your rendered images may appear different on other platforms, leading to unexpected results.
 </p>
 
 
