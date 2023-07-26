@@ -41,7 +41,7 @@ Graphics API for ASP site]
 The Aspose.Drawing library provides a cross-platform C# API for creating geometric drawings. With Aspose.Drawing, you can effortlessly draw vector images such as lines, shapes, rectangles, polygons, arcs, Bezier curves, and text with various fonts and styles. Additionally, you can apply different transformations to 2D objects and save the results as raster or vector files. You can utilize the same Aspose library as a drawing API for Windows, Linux, Azure, or as a graphic API for ASP sites, ensuring consistent quality and performance across all target platforms.
 </p>
 
-## How drawing lines and shapes
+## How to draw lines and shapes
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -148,7 +148,7 @@ bitmap.Save(RunExamples.GetDataDir() + @"LinesCurvesShapes\DrawBezierSpline_out.
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Let's try a more intricate example with text drawing. We will render a text with anti-aliasing and clip it within an elliptical area. To begin, we create a graphics object using a bitmap with dimensions 1000x800 px, and then set the `TextRenderingHint` graphics property to `AntiAliasGridFit`. Next, we create a `GraphicsPath` object representing a rectangle with coordinates from (200, 200) to (600, 400). We then clip an ellipse area that fits within this rectangle. Afterward, we create a `StringFormat` object, a `Brush` object, set the alignment, and select an appropriate font with the desired size and style. Finally, we use the <a href="https://reference.aspose.com/drawing/net/system.drawing/graphics/drawstring/">`DrawString` method</a> to create a text string with the clipped ellipse area.
+Let's try a more intricate example with text drawing. We will render a text with anti-aliasing and clip it within an elliptical area. To begin, we create a graphics object using a bitmap with dimensions 1000x800 px, and then set the `TextRenderingHint` graphics property to `AntiAliasGridFit`. Next, we create a `GraphicsPath` object representing an ellipse fitted to the rectangle with coordinates from (200, 200) to (600, 400). We then clip an ellipse area that fits within the rectangle. Afterward, we create a `StringFormat` object, a `Brush` object, set the alignment, and select an appropriate font with the desired size and style. Finally, we use the <a href="https://reference.aspose.com/drawing/net/system.drawing/graphics/drawstring/">`DrawString` method</a> to create a text string with the clipped ellipse area.
 </p>
 
 <p align='justify'>

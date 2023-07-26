@@ -36,7 +36,7 @@ Drawing library for Windows
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-The alternative to the System.Drawing.Common library has become more relevant since Microsoft announced restrictions on its usage for .NET 6 on non-Windows platforms due to the lack of support for 3rd party native libraries that the Microsoft library relies on. The Aspose package is compatible with any 32-bit or 64-bit operating system where .NET Standard 2.0, .NET Core 3.1, .NET 6, .NET 7 and higher is installed and fully supports the System.Drawing.Common API. Aspose.Drawing is not just a drawing library for Windows; it is also a cross-platform software, free from the shortcomings of the System.Drawing.Common library, and surpasses other alternative competitors' solutions.
+The alternative to the System.Drawing.Common library has become more relevant since Microsoft announced restrictions on its usage for .NET 6 on non-Windows platforms due to the lack of support for 3rd party native libraries that the Microsoft library relies on. The Aspose package supports .NET Standard 2.0 interface and is compatible with any 32-bit or 64-bit operating system where .NET Core 3.1, .NET 6, .NET 7 and higher are installed. Aspose.Drawing is not just a drawing library for Windows with the full support of the System.Drawing.Common API; is also a cross-platform software, free from the shortcomings of the System.Drawing.Common library, and surpasses other alternative competitors' solutions.
 </p>
 
 ## Aspose.Drawing features description

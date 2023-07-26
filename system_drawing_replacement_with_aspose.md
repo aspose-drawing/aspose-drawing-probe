@@ -21,7 +21,7 @@ Drawing library for Windows
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Creating images using graphic libraries can be a challenging task for developers, researchers, students, and managers involved in building graphic applications and services on the Microsoft .NET platform. Aspose.Drawing is a contemporary cross-platform graphic drawing library that offers advanced features and functionality. By utilizing the Aspose library for .NET (C#), developers can efficiently draw images with lines and shapes using diverse Pen and Brush objects, generate texts with varying fonts and styles, perform different transformations, and render drawings into popular graphics file formats. This readily-available graphic library significantly boosts productivity, drastically reduces development time, and accelerates time-to-market. Microsoft's System.Drawing.Common library has recently altered its support for non-Windows platforms, making Aspose.Drawing.Common API a suitable alternative for image drawings.
+Creating images using graphic libraries can be a challenging task for developers, researchers, students, and managers involved in building graphic applications and services on the Microsoft .NET platform. Aspose.Drawing is a contemporary cross-platform graphic drawing library that offers advanced features and functionality. By utilizing the Aspose library for .NET platform (C#, VB.NET and other languages), developers can efficiently draw images with lines and shapes using diverse Pen and Brush objects, generate texts with varying fonts and styles, perform different transformations, and render drawings into popular graphics file formats. This readily-available graphic library significantly boosts productivity, drastically reduces development time, and accelerates time-to-market. Microsoft's System.Drawing.Common library has recently altered its support for non-Windows platforms, making Aspose.Drawing.Common API a suitable alternative for image drawings.
 </p>
 
 
@@ -34,7 +34,7 @@ Microsoft Learn portal published an article detailing a significant change: <a h
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-This issue arises from the fact that System.Drawing.Common based on the implementation of the graphic library called `GDI+`, which includes native code and lacks necessary functionality. Additionally, `GDI+` has external dependencies on other 3rd party native libraries like `cairo` and `pango`. When using System.Drawing.Common on platforms different from Windows, you may encounter unpredictable behavior and platform errors within your drawing application. As a consequence, your rendered images may appear different on other platforms, leading to unexpected results.
+This issue arises from the fact that cross-platform implementation of System.Drawing.Common based on the graphic library called `libgdiplus`, which includes native code and lacks necessary functionality. Additionally, `libgdiplus` has external dependencies on other 3rd party native libraries like `cairo` and `pango` on Linux platform. When using System.Drawing.Common on platforms different from Windows, you may encounter unpredictable behavior and platform errors within your drawing application. As a consequence, your rendered images may appear different on other platforms, leading to unexpected results.
 </p>
 
 
@@ -42,7 +42,7 @@ This issue arises from the fact that System.Drawing.Common based on the implemen
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Fortunately, Aspose.Drawing avoids these drawbacks by not depending on any 3rd party libraries. It includes all the necessary rendering engines for all supported platforms, ensuring consistent rendering results. Aspose.Drawing for Microsoft .NET is a robust cross-platform programming library for 2D graphics drawing. The Aspose library serves as a viable alternative to the System.Drawing.Common package. Aspose.Drawing proves to be an excellent option for developing drawing applications using .NET Standard 2.0, .NET Core 3.1, .NET 6, .NET 7 and higher, Xamarin applications for Windows, Linux, Android, Azure Functions, or Blazor WebAssembly.
+Fortunately, Aspose.Drawing avoids these drawbacks by not depending on any 3rd party libraries. It includes all the necessary rendering engines for all supported platforms, ensuring consistent rendering results. Aspose.Drawing for Microsoft .NET is a robust cross-platform programming library for 2D graphics drawing. The Aspose library serves as a viable alternative to the System.Drawing.Common package. Aspose.Drawing supports .NET Standard 2.0 interface and proves to be an excellent option for developing drawing applications .NET Core 3.1, .NET 6, .NET 7 and higher, Xamarin applications for Windows, Linux, Android, Azure Functions, or Blazor WebAssembly.
 </p>
 
 
@@ -50,12 +50,12 @@ Fortunately, Aspose.Drawing avoids these drawbacks by not depending on any 3rd p
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Upgrading from System.Drawing.Common to Aspose.Drawing is a seamless and straightforward process. Aspose.Drawing.Common API offers a fully compatible C# API, preserving the same class names, functions, and interfaces. To migrate, simply update your project reference from `System` to `Aspose` and recompile the application. Once completed, your application will work smoothly across different platforms, delivering consistent results. You can conveniently download a trial package of <a href="https://www.nuget.org/packages/Aspose.Drawing.Common">Aspose.Drawing.Common from Nuget packages portal</a> or directly obtain the .DLL file from the <a href="https://releases.aspose.com/drawing/net/">Aspose releases portal</a>. For detailed instructions on installing Aspose.Drawing, please refer to the <a href="https://docs.aspose.com/drawing/net/installation/">Aspose.Drawing installation guide</a>.
+Upgrading from System.Drawing.Common to Aspose.Drawing is a seamless and straightforward process. Aspose.Drawing offers a fully compatible C# API (and other .NET platform languages API), preserving the same class names, functions, and interfaces. To migrate, simply update your project reference from `System` to `Aspose` and recompile the application. Once completed, your application will work smoothly across different platforms, delivering consistent results. You can conveniently download a trial package of <a href="https://www.nuget.org/packages/Aspose.Drawing.Common">Aspose.Drawing.Common from Nuget packages portal</a> or directly obtain the .DLL file from the <a href="https://releases.aspose.com/drawing/net/">Aspose releases portal</a>. For detailed instructions on installing Aspose.Drawing, please refer to the <a href="https://docs.aspose.com/drawing/net/installation/">Aspose.Drawing installation guide</a>.
 </p>
 
 ## Conclusion
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Microsoft's System.Drawing.Common drawing library for Windows has significant shortcomings when used on non-Windows platforms due to its dependencies on 3rd party native libraries. Considering Microsoft's recent article regarding the breaking change of behavior on non-Windows platforms for .NET 6 and their migration recommendations, Aspose.Drawing serves as a suitable replacement for System.Drawing. Aspose.Drawing can be effortlessly implemented on diverse platforms as a robust 2D graphic engine, effectively resolving compatibility issues and enhancing rendering quality.
+Microsoft's System.Drawing.Common drawing library has significant shortcomings when used on non-Windows platforms due to its dependencies on 3rd party native libraries. Considering Microsoft's recent article regarding the breaking change of behavior on non-Windows platforms for .NET 6 and their migration recommendations, Aspose.Drawing serves as a suitable replacement for System.Drawing. Aspose.Drawing can be effortlessly implemented on diverse platforms as a robust 2D graphic engine, effectively resolving compatibility issues and enhancing rendering quality for non-Windows platforms.
 </p>
