@@ -1,5 +1,5 @@
 ---
-title: Aspose.Drawing.Common as an alternative to System.Drawing.Common 2D graphics engine for .NET
+title: Aspose.Drawing.Common API as an alternative to System.Drawing.Common for 2D graphics engine for .NET
 description: Alt draw pictures with Aspose.Drawing.Common C# API for image drawing. Cross platform drawing library for support 2D drawing including drawing lines, drawing shapes and bezier curves. Using affine transformation, anti-aliasing lines and shapes. Rendering text with different styles and fonts.
 keywords: [
 drawing pictures,
@@ -32,18 +32,18 @@ Drawing library for Windows
    }
 </style>
 
-# Aspose.Drawing.Common as an alternative to System.Drawing.Common 2D graphics engine for .NET
+# Aspose.Drawing.Common API as an alternative to System.Drawing.Common for 2D graphics engine for .NET
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-The alternative to the System.Drawing.Common library has become more relevant since Microsoft announced restrictions on its usage for .NET 6 on non-Windows platforms due to the lack of support for 3rd party native libraries that the Microsoft library relies on. The Aspose package is compatible with any 32-bit or 64-bit operating system where .NET Standard 2.0, .NET Core 3.1, .NET 6, .NET 7 and higher is installed and fully supports the System.Drawing.Common API. Aspose.Drawing.Common is not just a drawing library for Windows; it is also a cross-platform software, free from the shortcomings of the System.Drawing.Common library, and even surpasses other competitors' solutions.
+The alternative to the System.Drawing.Common library has become more relevant since Microsoft announced restrictions on its usage for .NET 6 on non-Windows platforms due to the lack of support for 3rd party native libraries that the Microsoft library relies on. The Aspose package is compatible with any 32-bit or 64-bit operating system where .NET Standard 2.0, .NET Core 3.1, .NET 6, .NET 7 and higher is installed and fully supports the System.Drawing.Common API. Aspose.Drawing is not just a drawing library for Windows; it is also a cross-platform software, free from the shortcomings of the System.Drawing.Common library, and surpasses other alternative competitors' solutions.
 </p>
 
-## Aspose.Drawing.Common features description
+## Aspose.Drawing features description
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-The Aspose.Drawing library offers an extensive set of 2D drawing features, including various methods for drawing lines, Bezier curves, splines, arcs, and shapes like rectangles, polygons, and ellipses, as well as processing and drawing graphics paths. Furthermore, it allows you to draw text strings as well. In contrast to other drawing libraries, Aspose provides high-quality rendering of text with anti-aliasing and hinting, ensuring that font edges appear smooth without jagged edges, and letters are readable on any kind of displays and resolutions. Aspose.Drawing has an advantage over other libraries as it also supports strikeout or underline font rendering and possibility to draw text in the shapes with alignment.
+The Aspose.Drawing library offers an extensive set of 2D drawing features, including various methods for drawing lines, Bezier curves, splines, arcs, and shapes like rectangles, polygons, and ellipses, as well as processing and drawing graphics paths. Furthermore, it allows you to draw text strings as well. In contrast to other drawing libraries, Aspose provides high-quality rendering of text with anti-aliasing and hinting, ensuring that font edges appear smooth without jagged edges, and letters are readable on any kind of displays and resolutions. Aspose.Drawing has an advantage over other alternative libraries as it also supports strikeout or underline font rendering and the possibility to draw text in the shapes with alignment.
 </p>
 
 <figure class="frame"><p>
