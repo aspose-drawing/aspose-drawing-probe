@@ -96,6 +96,8 @@ Drawing library for Blazor
 
 ## 3.2 How to install Aspose.Drawing for different platforms
 
+## 3.3 Aspose Drawing library use cases
+
 ---
 
 
