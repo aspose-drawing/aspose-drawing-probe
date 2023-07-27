@@ -109,8 +109,6 @@ image.Save(Path.Combine(RunExamples.GetDataDir(), "UseCases", "girl_card.jpg"));
 
 <style>
    .frame {
-    display: block;
-    justify-content: center;
     border: 2px solid darkgray;
     padding: 5px;
     margin: 0 auto;
@@ -118,19 +116,31 @@ image.Save(Path.Combine(RunExamples.GetDataDir(), "UseCases", "girl_card.jpg"));
     align-items: center;
    }
    .frame figcaption {
-    margin: 0 auto 5px;
+    margin: 0 auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
    }
+   .container {
+   display: flex;
+   flex-direction: row;
+   align-items: center; 
+   justify-content: space-around;
+   }
 </style>
 
-<figure class="frame"><p align="center">
-<img src="./drawing/girl.jpg" alt="Text drawing on image gift card" width="476" height="315"/><img src="./drawing/girl_card.jpg" alt="Text drawing on image gift card" width="476" height="315"/>
-</p>
-<p>
-<figcaption>Text drawing on image gift card</figcaption>
-</p></figure>
+<figure class="frame">
+<div class="container"><div>Source image</div><div>Resulting image</div></div>
+<div class="container">
+    <div>
+        <img src="./drawing/girl.jpg" alt="Text drawing on image gift card" width="476" height="315"/>
+    </div>
+    <div>
+        <img src="./drawing/girl_card.jpg" alt="Text drawing on image gift card" width="476" height="315"/>
+    </div>
+</div>
+<figcaption>Frame drawing on image</figcaption>
+</figure>
 
 
 ### Photo frame
@@ -158,10 +168,18 @@ graphics.DrawRectangle(pen, gap, gap, image.Width - gap - 1, image.Height - gap 
 image.Save(Path.Combine(RunExamples.GetDataDir(), "UseCases", "cat_with_honor.jpg"));
 ```
 
-<figure class="frame"><p align="center">
-<img src="./drawing/cat.jpg" alt="Frame drawing on image" width="476" height="268"/><img src="./drawing/cat_with_honor.jpg" alt="Frame drawing on image" width="476" height="268"/>
-</p><p><figcaption>Frame drawing on image</figcaption>
-</p></figure>
+<figure class="frame">
+<div class="container"><div>Source image</div><div>Resulting image</div></div>
+<div class="container">
+    <div>
+        <img src="./drawing/cat.jpg" alt="Frame drawing on image" width="476" height="268"/>
+    </div>
+    <div>
+       <img src="./drawing/cat_with_honor.jpg" alt="Frame drawing on image" width="476" height="268"/>
+    </div>
+</div>
+<figcaption>Frame drawing on image</figcaption>
+</figure>
 
 
 ### Make callouts
@@ -222,12 +240,19 @@ void DrawCallOut(Graphics graphic, PointF startAnchor, PointF endAnchor, int val
 }
 ```
 
-<figure class="frame"><p align="center">
-<img src="./drawing/gears.png" alt="Callouts drawing on image" width="176" height="183"/><img src="./drawing/gears_with_callout.jpg" alt="Callouts drawing on image" width="176" height="183"/>
-</p>
-<p>
+<figure class="frame">
+<div class="container"><div>Source image</div><div>Resulting image</div></div>
+<div class="container">
+    <div>
+        <img src="./drawing/gears.png" alt="Callouts drawing on image" width="176" height="183"/>
+    </div>
+    <div>
+        <img src="./drawing/gears_with_callout.jpg" alt="Callouts drawing on image" width="176" height="183"/>
+    </div>
+</div>
 <figcaption>Callouts drawing on image</figcaption>
-</p></figure>
+
+</figure>
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
