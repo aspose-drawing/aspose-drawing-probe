@@ -50,7 +50,12 @@ Fortunately, Aspose.Drawing avoids these drawbacks by not depending on any 3rd p
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Upgrading from System.Drawing.Common to Aspose.Drawing is a seamless and straightforward process. Aspose.Drawing offers a fully compatible C# API (and other .NET platform languages API), preserving the same class names, functions, and interfaces. To migrate, simply update your project reference from `System` to `Aspose` and recompile the application. Once completed, your application will work smoothly across different platforms, delivering consistent results. You can conveniently download a trial package of <a href="https://www.nuget.org/packages/Aspose.Drawing.Common">Aspose.Drawing.Common from Nuget packages portal</a> or directly obtain the .DLL file from the <a href="https://releases.aspose.com/drawing/net/">Aspose releases portal</a>. For detailed instructions on installing Aspose.Drawing, please refer to the <a href="https://docs.aspose.com/drawing/net/installation/">Aspose.Drawing installation guide</a>.
+Upgrading from System.Drawing.Common to Aspose.Drawing is a seamless and straightforward process. Aspose.Drawing offers a fully compatible C# API (and other .NET platform languages API), preserving the same class names, functions, and interfaces. To migrate, simply update your project reference from `System` to `Aspose` and recompile the application. Once completed, your application will work smoothly across different platforms, delivering consistent results.
+</p>
+
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+You can conveniently download a trial package of <a href="https://www.nuget.org/packages/Aspose.Drawing">Aspose.Drawing</a> from the Nuget packages portal or directly obtain the .DLL file from the <a href="https://releases.aspose.com/drawing/net/">Aspose releases portal</a>. The Aspose.Drawing library uses the System.Drawing namespace and can be used to replace System.Drawing.Common without changing source code. Additionally, the <a href="https://www.nuget.org/packages/Aspose.Drawing.Common">Aspose.Drawing.Common</a> package is also available, which uses Aspose.Drawing namespace and can be used side-by-side with System.Drawing.Common. For detailed instructions on installing Aspose.Drawing, please refer to the <a href="https://docs.aspose.com/drawing/net/installation/">Aspose.Drawing installation guide</a>.
 </p>
 
 ## Conclusion
