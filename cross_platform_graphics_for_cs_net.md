@@ -99,9 +99,15 @@ var words = text.Split(' ');
 int extentWidth = 0;
 int extentHeight = 0;
 
-words.ToList().ForEach(word => { var stringSize = graphics.MeasureString(word, font); extentWidth = Math.Max(extentWidth, (int)stringSize.Width + padding); extentHeight += (int)stringSize.Height; });
+words.ToList().ForEach(word => { var stringSize = graphics.MeasureString(word, font);
+                                     extentWidth = Math.Max(extentWidth, (int)stringSize.Width + padding);
+                                     extentHeight += (int)stringSize.Height; });
 
-Rectangle rectangle = new Rectangle(image.Width - padding - extentWidth, image.Height - padding - extentHeight, extentWidth, extentHeight);
+Rectangle rectangle = new Rectangle(image.Width - padding - extentWidth,
+                                    image.Height - padding - extentHeight,
+                                    extentWidth,
+                                    extentHeight);
+
 graphics.DrawString(text, font, brush, rectangle);
 
 image.Save(Path.Combine(RunExamples.GetDataDir(), "UseCases", "girl_card.jpg"));
@@ -229,14 +235,21 @@ void DrawCallOut(Graphics graphic, PointF startAnchor, PointF endAnchor, int val
 
     float textAnchorX = Math.Min(callOutMiddleX, endAnchor.X);
     float textAnchorY = callOutMiddleY;
-    graphic.DrawLine(pen, callOutMiddleX, callOutMiddleY, textAnchorX == callOutMiddleX ? textAnchorX + textSize.Width : textAnchorX, callOutMiddleY);
+    graphic.DrawLine(pen, callOutMiddleX, callOutMiddleY,
+                     textAnchorX == callOutMiddleX ? textAnchorX + textSize.Width : textAnchorX,
+                     callOutMiddleY);
 
-    graphic.DrawEllipse(pen, new Rectangle((int)textAnchorX + spaceSize, (int)(textAnchorY - textSize.Height) + spaceSize, 10, 10));
-    graphic.DrawLine(pen, (int)textAnchorX + 1, (int)textAnchorY - 1, (int)textAnchorX + diameterSymbolSize + 2, (int)textAnchorY - diameterSymbolSize - 2);
+    graphic.DrawEllipse(pen, new Rectangle((int)textAnchorX + spaceSize,
+                                           (int)(textAnchorY - textSize.Height) + spaceSize, 10, 10));
+
+    graphic.DrawLine(pen, (int)textAnchorX + 1, (int)textAnchorY - 1,
+                          (int)textAnchorX + diameterSymbolSize + 2,
+                          (int)textAnchorY - diameterSymbolSize - 2);
 
     SolidBrush brush = new SolidBrush(Color.LightGray);
 
-    graphic.DrawString(outputValue, font, brush, (int)textAnchorX + diameterSymbolSize + spaceSize, (int)(textAnchorY - textSize.Height));
+    graphic.DrawString(outputValue, font, brush, (int)textAnchorX + diameterSymbolSize + spaceSize,
+                                                 (int)(textAnchorY - textSize.Height));
 }
 ```
 
