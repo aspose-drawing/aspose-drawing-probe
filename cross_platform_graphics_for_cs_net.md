@@ -22,23 +22,6 @@ Drawing library for Blazor
 ]
 ---
 
-<style>
-   .frame {
-    border: 2px solid darkgray;
-    padding: 5px;
-    margin: 10px 0 5px 5px;
-    background: #f0f0f0;
-    align-items: center;
-   }
-   .frame figcaption {
-    margin: 0 auto 5px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-
-   }
-</style>
-
 # Cross-platform graphics library for 2D drawing pictures for .NET
 
 <p align='justify'>
@@ -124,8 +107,28 @@ graphics.DrawString(text, font, brush, rectangle);
 image.Save(Path.Combine(RunExamples.GetDataDir(), "UseCases", "girl_card.jpg"));
 ```
 
-<figure class="frame"><p>
-<img src="./drawing/girl_card.jpg" alt="Text drawing on image gift card" width="476" height="315"/>
+<style>
+   .frame {
+    display: block;
+    justify-content: center;
+    border: 2px solid darkgray;
+    padding: 5px;
+    margin: 0 auto;
+    background: #f0f0f0;
+    align-items: center;
+   }
+   .frame figcaption {
+    margin: 0 auto 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   }
+</style>
+
+<figure class="frame"><p align="center">
+<img src="./drawing/girl.jpg" alt="Text drawing on image gift card" width="476" height="315"/><img src="./drawing/girl_card.jpg" alt="Text drawing on image gift card" width="476" height="315"/>
+</p>
+<p>
 <figcaption>Text drawing on image gift card</figcaption>
 </p></figure>
 
@@ -155,9 +158,9 @@ graphics.DrawRectangle(pen, gap, gap, image.Width - gap - 1, image.Height - gap 
 image.Save(Path.Combine(RunExamples.GetDataDir(), "UseCases", "cat_with_honor.jpg"));
 ```
 
-<figure class="frame"><p>
-<img src="./drawing/cat_with_honor.jpg" alt="Frame drawing on image" width="1000" height="562"/>
-<figcaption>Frame drawing on image</figcaption>
+<figure class="frame"><p align="center">
+<img src="./drawing/cat.jpg" alt="Frame drawing on image" width="476" height="268"/><img src="./drawing/cat_with_honor.jpg" alt="Frame drawing on image" width="476" height="268"/>
+</p><p><figcaption>Frame drawing on image</figcaption>
 </p></figure>
 
 
@@ -219,8 +222,10 @@ void DrawCallOut(Graphics graphic, PointF startAnchor, PointF endAnchor, int val
 }
 ```
 
-<figure class="frame"><p>
-<img src="./drawing/gears_with_callout.jpg" alt="Callouts drawing on image" width="176" height="183"/>
+<figure class="frame"><p align="center">
+<img src="./drawing/gears.png" alt="Callouts drawing on image" width="176" height="183"/><img src="./drawing/gears_with_callout.jpg" alt="Callouts drawing on image" width="176" height="183"/>
+</p>
+<p>
 <figcaption>Callouts drawing on image</figcaption>
 </p></figure>
 
