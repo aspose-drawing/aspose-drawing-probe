@@ -46,12 +46,12 @@ Drawing library for Windows
 
 # [2. Aspose.Drawing.Common API as an alternative to System.Drawing.Common for 2D graphics engine for .NET](./alternative_to_system_drawing_with_aspose.md)
 
-description: Alt draw pictures with Aspose.Drawing.Common C# API for image drawing. Cross platform drawing library for support 2D drawing including drawing lines, drawing shapes and bezier curves. Using affine transformation, anti-aliasing lines and shapes. Rendering text with different styles and fonts.
+description: System.Drawing alternative with Aspose.Drawing.Common C# API for drawing pictures. Cross platform drawing library for support 2D drawing including drawing lines, drawing shapes and bezier curves. Using affine transformation, anti-aliasing lines and shapes. Rendering text with different styles and fonts.
 
 keywords: [
 drawing pictures,
 anti aliasing,
-alt draw,
+System drawing alternative,
 dot net,
 affine transformation,
 bezier curves,
