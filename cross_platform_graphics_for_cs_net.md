@@ -83,34 +83,37 @@ One of the most popular use case for 2D drawing is adding text to images, such a
 Example of C# code to draw text on an image:
 
 ```cs
-var graphics = Graphics.FromImage(image);
+using (var image = Image.FromFile(Path.Combine(RunExamples.GetDataDir(), "UseCases", "girl.jpg")))
+{
+    var graphics = Graphics.FromImage(image);
 
-graphics.TextRenderingHint = TextRenderingHint.AntiAliasGridFit;
-graphics.PageUnit = GraphicsUnit.Pixel;
+    graphics.TextRenderingHint = TextRenderingHint.AntiAliasGridFit;
+    graphics.PageUnit = GraphicsUnit.Pixel;
 
-SolidBrush brush = new SolidBrush(Color.Navy);
-Font font = new Font("Calibri", 20, FontStyle.Italic);
+    SolidBrush brush = new SolidBrush(Color.Navy);
+    Font font = new Font("Calibri", 20, FontStyle.Italic);
 
-int padding = 5;
+    int padding = 5;
 
-string text = "Happy Birthday!";
-var words = text.Split(' ');
+    string text = "Happy Birthday!";
+    var words = text.Split(' ');
 
-int extentWidth = 0;
-int extentHeight = 0;
+    int extentWidth = 0;
+    int extentHeight = 0;
 
-words.ToList().ForEach(word => { var stringSize = graphics.MeasureString(word, font);
-                                     extentWidth = Math.Max(extentWidth, (int)stringSize.Width + padding);
-                                     extentHeight += (int)stringSize.Height; });
+    words.ToList().ForEach(word => { var stringSize = graphics.MeasureString(word, font);
+                                        extentWidth = Math.Max(extentWidth, (int)stringSize.Width + padding);
+                                        extentHeight += (int)stringSize.Height; });
 
-Rectangle rectangle = new Rectangle(image.Width - padding - extentWidth,
-                                    image.Height - padding - extentHeight,
-                                    extentWidth,
-                                    extentHeight);
+    Rectangle rectangle = new Rectangle(image.Width - padding - extentWidth,
+                                        image.Height - padding - extentHeight,
+                                        extentWidth,
+                                        extentHeight);
 
-graphics.DrawString(text, font, brush, rectangle);
+    graphics.DrawString(text, font, brush, rectangle);
 
-image.Save(Path.Combine(RunExamples.GetDataDir(), "UseCases", "girl_card.jpg"));
+    image.Save(Path.Combine(RunExamples.GetDataDir(), "UseCases", "girl_card.jpg"));
+}
 ```
 
 <style>
@@ -159,19 +162,22 @@ Moreover, you can enhance the visual appeal by creating a color frame around ima
 Example of C# code to draw a color frame around a photo:
 
 ```cs
-var graphics = Graphics.FromImage(image);
+using (var image = Image.FromFile(Path.Combine(RunExamples.GetDataDir(), "UseCases", "cat.jpg")))
+{
+    var graphics = Graphics.FromImage(image);
 
-graphics.TextRenderingHint = TextRenderingHint.AntiAliasGridFit;
-graphics.PageUnit = GraphicsUnit.Pixel;
+    graphics.TextRenderingHint = TextRenderingHint.AntiAliasGridFit;
+    graphics.PageUnit = GraphicsUnit.Pixel;
 
-var pen = new Pen(Color.Magenta, 1);
+    var pen = new Pen(Color.Magenta, 1);
 
-int gap = 2;
+    int gap = 2;
 
-graphics.DrawRectangle(pen, 0, 0, image.Width - 1, image.Height - 1);
-graphics.DrawRectangle(pen, gap, gap, image.Width - gap - 1, image.Height - gap - 1);
+    graphics.DrawRectangle(pen, 0, 0, image.Width - 1, image.Height - 1);
+    graphics.DrawRectangle(pen, gap, gap, image.Width - gap - 1, image.Height - gap - 1);
 
-image.Save(Path.Combine(RunExamples.GetDataDir(), "UseCases", "cat_with_honor.jpg"));
+    image.Save(Path.Combine(RunExamples.GetDataDir(), "UseCases", "cat_with_honor.jpg"));
+}
 ```
 
 <figure class="frame">

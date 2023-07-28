@@ -21,7 +21,7 @@ Drawing library for Windows
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Creating images using graphic libraries can be a challenging task for developers, researchers, students, and managers involved in building graphic applications and services on the Microsoft .NET platform. Aspose.Drawing is a contemporary cross-platform graphic drawing library that offers advanced features and functionality. By utilizing the Aspose library for .NET (C#), developers can efficiently draw images with lines and shapes using diverse Pen and Brush objects, generate texts with varying fonts and styles, perform different transformations, and render drawings into popular graphics file formats. This readily-available graphic library significantly boosts productivity, drastically reduces development time, and accelerates time-to-market. Microsoft's System.Drawing.Common library has recently altered its support for non-Windows platforms, making Aspose.Drawing.Common API a suitable alternative for image drawings.
+Creating images using graphic libraries can be a challenging task for developers, researchers, students, and managers involved in building graphic applications and services on the Microsoft .NET platform. Aspose.Drawing is a contemporary cross-platform graphic drawing library that offers advanced features and functionality. By utilizing the Aspose library for .NET platform (C#, VB.NET and other languages), developers can efficiently draw images with lines and shapes using diverse Pen and Brush objects, generate texts with varying fonts and styles, perform different transformations, and render drawings into popular graphics file formats. This readily-available graphic library significantly boosts productivity, drastically reduces development time, and accelerates time-to-market. Microsoft's System.Drawing.Common library has recently altered its support for non-Windows platforms, making Aspose.Drawing.Common API a suitable alternative for image drawings.
 </p>
 
 
@@ -34,7 +34,7 @@ Microsoft Learn portal published an article detailing a significant change: <a h
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-This issue arises from the fact that System.Drawing.Common based on the implementation of the graphic library called `GDI+`, which includes native code and lacks necessary functionality. Additionally, `GDI+` has external dependencies on other 3rd party native libraries like `cairo` and `pango`. When using System.Drawing.Common on platforms different from Windows, you may encounter unpredictable behavior and platform errors within your drawing application. As a consequence, your rendered images may appear different on other platforms, leading to unexpected results.
+This issue arises from the fact that cross-platform implementation of System.Drawing.Common based on the graphic library called `libgdiplus`, which includes native code and lacks necessary functionality. Additionally, `libgdiplus` has external dependencies on other 3rd party native libraries like `cairo` and `pango` on Linux platform. When using System.Drawing.Common on platforms different from Windows, you may encounter unpredictable behavior and platform errors within your drawing application. As a consequence, your rendered images may appear different on other platforms, leading to unexpected results.
 </p>
 
 
@@ -42,7 +42,7 @@ This issue arises from the fact that System.Drawing.Common based on the implemen
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Fortunately, Aspose.Drawing avoids these drawbacks by not depending on any 3rd party libraries. It includes all the necessary rendering engines for all supported platforms, ensuring consistent rendering results. Aspose.Drawing for Microsoft .NET is a robust cross-platform programming library for 2D graphics drawing. The Aspose library serves as a viable alternative to the System.Drawing.Common package. Aspose.Drawing proves to be an excellent option for developing drawing applications using .NET Standard 2.0, .NET Core 3.1, .NET 6, .NET 7 and higher, Xamarin applications for Windows, Linux, Android, Azure Functions, or Blazor WebAssembly.
+Fortunately, Aspose.Drawing avoids these drawbacks by not depending on any 3rd party libraries. It includes all the necessary rendering engines for all supported platforms, ensuring consistent rendering results. Aspose.Drawing for Microsoft .NET is a robust cross-platform programming library for 2D graphics drawing. The Aspose library serves as a viable alternative to the System.Drawing.Common package. Aspose.Drawing supports .NET Standard 2.0 interface and proves to be an excellent option for developing drawing applications .NET Core 3.1, .NET 6, .NET 7 and higher, Xamarin applications for Windows, Linux, Android, Azure Functions, or Blazor WebAssembly.
 </p>
 
 
@@ -50,30 +50,24 @@ Fortunately, Aspose.Drawing avoids these drawbacks by not depending on any 3rd p
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Upgrading from System.Drawing.Common to Aspose.Drawing is a seamless and straightforward process. Aspose.Drawing.Common API offers a fully compatible C# API, preserving the same class names, functions, and interfaces. To migrate, simply update your project reference from `System` to `Aspose` and recompile the application. Once completed, your application will work smoothly across different platforms, delivering consistent results. You can conveniently download a trial package of <a href="https://www.nuget.org/packages/Aspose.Drawing.Common">Aspose.Drawing.Common from Nuget packages portal</a> or directly obtain the .DLL file from the <a href="https://releases.aspose.com/drawing/net/">Aspose releases portal</a>. For detailed instructions on installing Aspose.Drawing, please refer to the <a href="https://docs.aspose.com/drawing/net/installation/">Aspose.Drawing installation guide</a>.
+Upgrading from System.Drawing.Common to Aspose.Drawing is a seamless and straightforward process. Aspose.Drawing offers a fully compatible C# API (and other .NET platform languages API), preserving the same class names, functions, and interfaces. To migrate, simply update your project reference from `System` to `Aspose` and recompile the application. Once completed, your application will work smoothly across different platforms, delivering consistent results.
+</p>
+
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+You can conveniently download a trial package of <a href="https://www.nuget.org/packages/Aspose.Drawing">Aspose.Drawing</a> from the Nuget packages portal or directly obtain the .DLL file from the <a href="https://releases.aspose.com/drawing/net/">Aspose releases portal</a>. The Aspose.Drawing library uses the System.Drawing namespace and can be used to replace System.Drawing.Common without changing source code. Additionally, the <a href="https://www.nuget.org/packages/Aspose.Drawing.Common">Aspose.Drawing.Common</a> package is also available, which uses Aspose.Drawing namespace and can be used side-by-side with System.Drawing.Common. For detailed instructions on installing Aspose.Drawing, please refer to the <a href="https://docs.aspose.com/drawing/net/installation/">Aspose.Drawing installation guide</a>.
 </p>
 
 ## Conclusion
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Microsoft's System.Drawing.Common drawing library for Windows has significant shortcomings when used on non-Windows platforms due to its dependencies on 3rd party native libraries. Considering Microsoft's recent article regarding the breaking change of behavior on non-Windows platforms for .NET 6 and their migration recommendations, Aspose.Drawing serves as a suitable replacement for System.Drawing. Aspose.Drawing can be effortlessly implemented on diverse platforms as a robust 2D graphic engine, effectively resolving compatibility issues and enhancing rendering quality.
+Microsoft's System.Drawing.Common drawing library has significant shortcomings when used on non-Windows platforms due to its dependencies on 3rd party native libraries. Considering Microsoft's recent article regarding the breaking change of behavior on non-Windows platforms for .NET 6 and their migration recommendations, Aspose.Drawing serves as a suitable replacement for System.Drawing. Aspose.Drawing can be effortlessly implemented on diverse platforms as a robust 2D graphic engine, effectively resolving compatibility issues and enhancing rendering quality for non-Windows platforms.
 </p>
 ---
 title: Aspose.Drawing.Common API as an alternative to System.Drawing.Common for 2D graphics engine for .NET
-description: Alt draw pictures with Aspose.Drawing.Common C# API for image drawing. Cross platform drawing library for support 2D drawing including drawing lines, drawing shapes and bezier curves. Using affine transformation, anti-aliasing lines and shapes. Rendering text with different styles and fonts.
-keywords: [
-drawing pictures,
-anti aliasing,
-alt draw,
-dot net,
-affine transformation,
-bezier curves,
-nuget package,
-alpha blending,
-rendering text,
-Drawing library for Windows
-]
+description: System.Drawing alternative with Aspose.Drawing.Common C# API for drawing pictures. Cross platform drawing library for support 2D drawing including drawing lines, drawing shapes and bezier curves. Using affine transformation, anti-aliasing lines and shapes. Rendering text with different styles and fonts.
+keywords: [drawing pictures, anti aliasing, System drawing alternative, dot net, affine transformation, bezier curves, nuget package, alpha blending, rendering text, Drawing library for Windows]
 ---
 
 <style>
@@ -97,7 +91,7 @@ Drawing library for Windows
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-The alternative to the System.Drawing.Common library has become more relevant since Microsoft announced restrictions on its usage for .NET 6 on non-Windows platforms due to the lack of support for 3rd party native libraries that the Microsoft library relies on. The Aspose package is compatible with any 32-bit or 64-bit operating system where .NET Standard 2.0, .NET Core 3.1, .NET 6, .NET 7 and higher is installed and fully supports the System.Drawing.Common API. Aspose.Drawing is not just a drawing library for Windows; it is also a cross-platform software, free from the shortcomings of the System.Drawing.Common library, and surpasses other alternative competitors' solutions.
+The alternative to the System.Drawing.Common library has become more relevant since Microsoft announced restrictions on its usage for .NET 6 on non-Windows platforms due to the lack of support for 3rd party native libraries that the Microsoft library relies on. The Aspose package supports .NET Standard 2.0 interface and is compatible with any 32-bit or 64-bit operating system where .NET Core 3.1, .NET 6, .NET 7 and higher are installed. Aspose.Drawing is not just a drawing library for Windows with the full support of the System.Drawing.Common API; is also a cross-platform software, free from the shortcomings of the System.Drawing.Common library, and surpasses other alternative competitors' solutions.
 </p>
 
 ## Aspose.Drawing features description
@@ -181,7 +175,7 @@ Drawing libraries for Microsoft .NET are widely utilized for creating 2D drawing
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Graphic libraries for .NET are not limited to the Windows platforms; they are also widely popular on other systems such as MacOS, Linux, Android, Azure Functions, ASP.NET WebApp and Blazor WebAssembly. One major advantage of Aspose.Drawing.Common is its cross-platform compatibility, allowing you to utilize it simultaneously on multiple platforms. Developing with a single library streamlines the application creation process. You can reuse code developed once across multiple platforms. Aspose.Drawing is compatible with all target platforms listed in the <a href="https://www.nuget.org/packages/Aspose.Drawing.Common#supportedframeworks-body-tab">Supported frameworks list</a>, making it suitable for any choice you make.
+Graphic libraries for .NET are not limited to the Windows platforms; they are also widely popular on other systems such as MacOS, Linux, Android, Azure Functions, ASP.NET WebApp and Blazor WebAssembly. One major advantage of Aspose.Drawing.Common API is its cross-platform compatibility, allowing you to utilize it simultaneously on multiple platforms. Developing with a single library streamlines the application creation process. You can reuse code developed once across multiple platforms. Aspose.Drawing is compatible with all target platforms listed in the <a href="https://www.nuget.org/packages/Aspose.Drawing.Common#supportedframeworks-body-tab">Supported frameworks list</a>, making it suitable for any choice you make.
 </p>
 
 
@@ -215,7 +209,214 @@ To run a .NET application on Linux, you simply need to have .NET installed and e
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Aspose.Drawing graphics library relies solely on its own rendering functions, eliminating the need to install any other 3rd party components. Furthermore, you can run C# applications with the Aspose library in a Docker container. For more information about Docker installation, please refer to the <a href="https://docs.aspose.com/drawing/net/how-to-run-aspose-drawing-in-docker/">Aspose.Drawing documentation</a>.
+Furthermore, you can run C# applications with the Aspose library in a Docker container. For more information about Docker installation, please refer to the <a href="https://docs.aspose.com/drawing/net/how-to-run-aspose-drawing-in-docker/">Aspose.Drawing documentation</a>.
+</p>
+
+## Aspose Drawing library use cases
+
+### Text on image
+
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+One of the most popular use case for 2D drawing is adding text to images, such as creating text on images for making gift cards. In the example below, we will draw a text string "Happy Birthday!" on the available space at the bottom right corner of the existing image. We will use the <a href="https://reference.aspose.com/drawing/net/system.drawing/solidbrush/">`SolidBrush` tool</a> to draw the text string. You should choose the desired text color and a font with the appropriate size and style. Next, calculate the position of the <a href="https://reference.aspose.com/drawing/net/system.drawing/rectangle/">`Rectangle` structure</a> to fit the text, and then draw the text string using the <a href="https://reference.aspose.com/imaging/net/aspose.imaging/graphics/drawstring/">`DrawString` method</a>.
+</p>
+
+Example of C# code to draw text on an image:
+
+```cs
+using (var image = Image.FromFile(Path.Combine(RunExamples.GetDataDir(), "UseCases", "girl.jpg")))
+{
+    var graphics = Graphics.FromImage(image);
+
+    graphics.TextRenderingHint = TextRenderingHint.AntiAliasGridFit;
+    graphics.PageUnit = GraphicsUnit.Pixel;
+
+    SolidBrush brush = new SolidBrush(Color.Navy);
+    Font font = new Font("Calibri", 20, FontStyle.Italic);
+
+    int padding = 5;
+
+    string text = "Happy Birthday!";
+    var words = text.Split(' ');
+
+    int extentWidth = 0;
+    int extentHeight = 0;
+
+    words.ToList().ForEach(word => { var stringSize = graphics.MeasureString(word, font);
+                                        extentWidth = Math.Max(extentWidth, (int)stringSize.Width + padding);
+                                        extentHeight += (int)stringSize.Height; });
+
+    Rectangle rectangle = new Rectangle(image.Width - padding - extentWidth,
+                                        image.Height - padding - extentHeight,
+                                        extentWidth,
+                                        extentHeight);
+
+    graphics.DrawString(text, font, brush, rectangle);
+
+    image.Save(Path.Combine(RunExamples.GetDataDir(), "UseCases", "girl_card.jpg"));
+}
+```
+
+<style>
+   .frame {
+    border: 2px solid darkgray;
+    padding: 5px;
+    margin: 0 auto;
+    background: #f0f0f0;
+    align-items: center;
+   }
+   .frame figcaption {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   }
+   .container {
+   display: flex;
+   flex-direction: row;
+   align-items: center; 
+   justify-content: space-around;
+   }
+</style>
+
+<figure class="frame">
+<div class="container"><div>Source image</div><div>Resulting image</div></div>
+<div class="container">
+    <div>
+        <img src="./drawing/girl.jpg" alt="Text drawing on image gift card" width="476" height="315"/>
+    </div>
+    <div>
+        <img src="./drawing/girl_card.jpg" alt="Text drawing on image gift card" width="476" height="315"/>
+    </div>
+</div>
+<figcaption>Frame drawing on image</figcaption>
+</figure>
+
+
+### Photo frame
+
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Moreover, you can enhance the visual appeal by creating a color frame around images or photographs. This can be easily accomplished by choosing a <a href="https://reference.aspose.com/drawing/net/system.drawing/pen/pen/">`Pen` tool</a> with your desired color and using the <a href="https://reference.aspose.com/drawing/net/system.drawing/graphics/drawrectangle/">`DrawRectangle` method</a> to draw the frame with the calculated width and height.
+</p>
+
+Example of C# code to draw a color frame around a photo:
+
+```cs
+using (var image = Image.FromFile(Path.Combine(RunExamples.GetDataDir(), "UseCases", "cat.jpg")))
+{
+    var graphics = Graphics.FromImage(image);
+
+    graphics.TextRenderingHint = TextRenderingHint.AntiAliasGridFit;
+    graphics.PageUnit = GraphicsUnit.Pixel;
+
+    var pen = new Pen(Color.Magenta, 1);
+
+    int gap = 2;
+
+    graphics.DrawRectangle(pen, 0, 0, image.Width - 1, image.Height - 1);
+    graphics.DrawRectangle(pen, gap, gap, image.Width - gap - 1, image.Height - gap - 1);
+
+    image.Save(Path.Combine(RunExamples.GetDataDir(), "UseCases", "cat_with_honor.jpg"));
+}
+```
+
+<figure class="frame">
+<div class="container"><div>Source image</div><div>Resulting image</div></div>
+<div class="container">
+    <div>
+        <img src="./drawing/cat.jpg" alt="Frame drawing on image" width="476" height="268"/>
+    </div>
+    <div>
+       <img src="./drawing/cat_with_honor.jpg" alt="Frame drawing on image" width="476" height="268"/>
+    </div>
+</div>
+<figcaption>Frame drawing on image</figcaption>
+</figure>
+
+
+### Make callouts
+
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Another useful scenario involves creating callouts on images to add supplementary information, such as diameter size details in mm. Callouts consist of several graphics primitives, and to draw them, we need to utilize various drawing methods such as <a href="https://reference.aspose.com/drawing/net/system.drawing/graphics/drawline/">`DrawLine`</a>, <a href="https://reference.aspose.com/drawing/net/system.drawing/graphics/drawellipse/">`DrawEllipse`</a>, and <a href="https://reference.aspose.com/imaging/net/aspose.imaging/graphics/drawstring/">`DrawString`</a>.
+</p>
+
+Example of C# code to draw callouts on an image:
+
+```cs
+// callout with size
+using (var image = Image.FromFile(Path.Combine(RunExamples.GetDataDir(), "UseCases", "gears.png")))
+{
+    var graphics = Graphics.FromImage(image);
+
+    graphics.TextRenderingHint = TextRenderingHint.AntiAliasGridFit;
+    graphics.PageUnit = GraphicsUnit.Pixel;
+
+    DrawCallOut(graphics, new PointF(107, 55), new PointF(179, 5), 74, "mm");
+
+    DrawCallOut(graphics, new PointF(111, 146), new PointF(29, 180), 28, "mm");
+
+    image.Save(Path.Combine(RunExamples.GetDataDir(), "UseCases", "gears_with_callout.jpg"));
+}
+
+void DrawCallOut(Graphics graphic, PointF startAnchor, PointF endAnchor, int value, string unit)
+{
+    Pen pen = new Pen(Color.LightGray, 1);
+
+    Font font = new Font("Arial", 10, FontStyle.Bold);
+
+    string outputValue = $"{value} {unit}";
+
+    var textSize = graphic.MeasureString(outputValue, font);
+
+    int diameterSymbolSize = 12;
+    int spaceSize = 3;
+
+    textSize.Width += diameterSymbolSize + spaceSize;
+
+    float callOutMiddleX = endAnchor.X > startAnchor.X ? endAnchor.X - textSize.Width : endAnchor.X + textSize.Width;
+    float callOutMiddleY = endAnchor.Y > startAnchor.Y ? endAnchor.Y - textSize.Height : endAnchor.Y + textSize.Height;
+
+    graphic.DrawLine(pen, startAnchor.X, startAnchor.Y, callOutMiddleX, callOutMiddleY);
+
+    float textAnchorX = Math.Min(callOutMiddleX, endAnchor.X);
+    float textAnchorY = callOutMiddleY;
+    graphic.DrawLine(pen, callOutMiddleX, callOutMiddleY,
+                     textAnchorX == callOutMiddleX ? textAnchorX + textSize.Width : textAnchorX,
+                     callOutMiddleY);
+
+    graphic.DrawEllipse(pen, new Rectangle((int)textAnchorX + spaceSize,
+                                           (int)(textAnchorY - textSize.Height) + spaceSize, 10, 10));
+
+    graphic.DrawLine(pen, (int)textAnchorX + 1, (int)textAnchorY - 1,
+                          (int)textAnchorX + diameterSymbolSize + 2,
+                          (int)textAnchorY - diameterSymbolSize - 2);
+
+    SolidBrush brush = new SolidBrush(Color.LightGray);
+
+    graphic.DrawString(outputValue, font, brush, (int)textAnchorX + diameterSymbolSize + spaceSize,
+                                                 (int)(textAnchorY - textSize.Height));
+}
+```
+
+<figure class="frame">
+<div class="container"><div>Source image</div><div>Resulting image</div></div>
+<div class="container">
+    <div>
+        <img src="./drawing/gears.png" alt="Callouts drawing on image" width="176" height="183"/>
+    </div>
+    <div>
+        <img src="./drawing/gears_with_callout.jpg" alt="Callouts drawing on image" width="176" height="183"/>
+    </div>
+</div>
+<figcaption>Callouts drawing on image</figcaption>
+
+</figure>
+
+<p align='justify'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Aspose.Drawing graphics library runs on a wide range of different platforms and relies solely on its own rendering functions, eliminating the need to install any other 3rd party components. To find more examples please visit the <a href="https://github.com/aspose-drawing/Aspose.Drawing-for-.NET/">Aspose GitHub repository</a>.
 </p>
 ---
 title: Cross-platform drawing C# API for .NET
@@ -260,7 +461,7 @@ Graphics API for ASP site]
 The Aspose.Drawing library provides a cross-platform C# API for creating geometric drawings. With Aspose.Drawing, you can effortlessly draw vector images such as lines, shapes, rectangles, polygons, arcs, Bezier curves, and text with various fonts and styles. Additionally, you can apply different transformations to 2D objects and save the results as raster or vector files. You can utilize the same Aspose library as a drawing API for Windows, Linux, Azure, or as a graphic API for ASP sites, ensuring consistent quality and performance across all target platforms.
 </p>
 
-## How drawing lines and shapes
+## How to draw lines and shapes
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -367,7 +568,7 @@ bitmap.Save(RunExamples.GetDataDir() + @"LinesCurvesShapes\DrawBezierSpline_out.
 
 <p align='justify'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Let's try a more intricate example with text drawing. We will render a text with anti-aliasing and clip it within an elliptical area. To begin, we create a graphics object using a bitmap with dimensions 1000x800 px, and then set the `TextRenderingHint` graphics property to `AntiAliasGridFit`. Next, we create a `GraphicsPath` object representing a rectangle with coordinates from (200, 200) to (600, 400). We then clip an ellipse area that fits within this rectangle. Afterward, we create a `StringFormat` object, a `Brush` object, set the alignment, and select an appropriate font with the desired size and style. Finally, we use the <a href="https://reference.aspose.com/drawing/net/system.drawing/graphics/drawstring/">`DrawString` method</a> to create a text string with the clipped ellipse area.
+Let's try a more intricate example with text drawing. We will render a text with anti-aliasing and clip it within an elliptical area. To begin, we create a graphics object using a bitmap with dimensions 1000x800 px, and then set the `TextRenderingHint` graphics property to `AntiAliasGridFit`. Next, we create a `GraphicsPath` object representing an ellipse fitted to the rectangle with coordinates from (200, 200) to (600, 400). We then clip an ellipse area that fits within the rectangle. Afterward, we create a `StringFormat` object, a `Brush` object, set the alignment, and select an appropriate font with the desired size and style. Finally, we use the <a href="https://reference.aspose.com/drawing/net/system.drawing/graphics/drawstring/">`DrawString` method</a> to create a text string with the clipped ellipse area.
 </p>
 
 <p align='justify'>
